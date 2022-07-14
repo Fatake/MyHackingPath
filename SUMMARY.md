@@ -17,6 +17,7 @@
 * [Fase Extra - Ingeniería Social](myMethod/fase-extra-ingenieria-social.md)
 * [Fase Extra - DoS](myMethod/fase-extra-dos.md)
 
-## Utilidades
+## 📱 Mobile
 
-* [Análisis de Aplicaciones Móviles en MobSF](utilidades/analisis-de-aplicaciones-moviles-en-mobsf.md)
+* [Análisis de Aplicaciones Móviles en MobSF](mobile/analisis-de-aplicaciones-moviles-en-mobsf.md)
+* [¿Cómo interceptar tráfico de una aplicación Flutter Android con Burp?](mobile/como-interceptar-trafico-de-una-aplicacion-flutter-android-con-burp.md)
