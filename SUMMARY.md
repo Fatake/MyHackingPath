@@ -20,3 +20,8 @@
 
 * [Análisis de Aplicaciones Móviles en MobSF](mobile/analisis-de-aplicaciones-moviles-en-mobsf.md)
 * [¿Cómo interceptar tráfico de una aplicación Flutter Android con Burp?](mobile/como-interceptar-trafico-de-una-aplicacion-flutter-android-con-burp.md)
+
+## 😎 Extras
+
+* [Simple python HTTP Server](extras/simple-python-http-server.md)
+* [Simple NetCat file transfer](extras/simple-netcat-file-transfer.md)
