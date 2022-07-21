@@ -6,6 +6,7 @@
 
 ## 📚 Mi Metodología de Pentesting <a href="#myMethod" id="myMethod"></a>
 
+* [Metodología general](myMethod/metodologia-general.md)
 * [Fase 1 - Reconocimiento](myMethod/fase-1-reconocimiento/README.md)
   * [SubDominios](myMethod/fase-1-reconocimiento/subdominios.md)
   * [Escaneo de Puertos](myMethod/fase-1-reconocimiento/escaneo-de-puertos.md)
