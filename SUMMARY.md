@@ -27,6 +27,6 @@
 * [Simple python HTTP Server](extras/simple-python-http-server.md)
 * [Simple NetCat file transfer](extras/simple-netcat-file-transfer.md)
 
-## 🔫 ATTK\&CK
+## 🔫 Red\_Team
 
-* [¿Qué es ATT\&CK?](attk-and-ck/que-es-att-and-ck.md)
+* [¿Qué es ATT\&CK?](red\_team/que-es-att-and-ck.md)
