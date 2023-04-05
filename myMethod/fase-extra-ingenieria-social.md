@@ -1,2 +1,0 @@
-# Fase Extra - Ingeniería Social
-
