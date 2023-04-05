@@ -17,6 +17,16 @@
 * [Fase Extra - Ingeniería Social](myMethod/fase-extra-ingenieria-social.md)
 * [Fase Extra - DoS](myMethod/fase-extra-dos.md)
 
+## ☁ AWS Pentesting
+
+* [Footprinting](aws-pentesting/footprinting.md)
+* [IAM](aws-pentesting/iam.md)
+
+## 🔫 Red\_Team
+
+* [¿Qué es ATT\&CK?](red\_team/que-es-att-and-ck/README.md)
+  * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
+
 ## 📱 Mobile
 
 * [Análisis de Aplicaciones Móviles en MobSF](mobile/analisis-de-aplicaciones-moviles-en-mobsf.md)
@@ -26,8 +36,3 @@
 
 * [Simple python HTTP Server](extras/simple-python-http-server.md)
 * [Simple NetCat file transfer](extras/simple-netcat-file-transfer.md)
-
-## 🔫 Red\_Team
-
-* [¿Qué es ATT\&CK?](red\_team/que-es-att-and-ck/README.md)
-  * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)

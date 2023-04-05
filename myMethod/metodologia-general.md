@@ -1,5 +1,7 @@
 # Metodología general
 
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 ## Fase 1 - Reconocimiento
 
 ### 1 Footprinting&#x20;
