@@ -19,6 +19,7 @@
 * [IAM](aws-pentesting/iam/README.md)
   * [Políticas de IAM](aws-pentesting/iam/politicas-de-iam.md)
   * [Enumeraciones](aws-pentesting/iam/enumeraciones.md)
+* [Notas](aws-pentesting/notas.md)
 
 ## 🔫 Red\_Team
 
