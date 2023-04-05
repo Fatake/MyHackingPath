@@ -18,6 +18,7 @@
 * [Footprinting](aws-pentesting/footprinting.md)
 * [IAM](aws-pentesting/iam/README.md)
   * [Políticas de IAM](aws-pentesting/iam/politicas-de-iam.md)
+  * [Enumeraciones](aws-pentesting/iam/enumeraciones.md)
 
 ## 🔫 Red\_Team
 
