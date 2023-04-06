@@ -15,7 +15,7 @@ Este pequeño libro pretendo exponer todos los conocimientos/técnicas/trucos qu
 
 
 {% hint style="warning" %}
-Puede que varias cosas aquí explicadas estén mal, este libro fue creado inicialmente como guía personal, si te es de utilidad o gustas aportar ideas, puedes generar un merge request al github de este proyecto.
+El contenido de este repositorio se proporciona solo con fines informativos y educativos y no debe considerarse como asesoramiento profesional. Si deseas realizar algún aporte de información al contenido, puedes hacerlo a través del GitHub del proyecto
 {% endhint %}
 
 {% embed url="https://github.com/Fatake/MyHackingPath" %}
