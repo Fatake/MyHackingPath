@@ -16,11 +16,11 @@
 ## ☁ AWS Pentesting
 
 * [Introducción a Amazon Web Services AWS](aws-pentesting/introduccion-a-amazon-web-services-aws.md)
-* [Footprinting](aws-pentesting/footprinting.md)
+* [Acceso Inicial](aws-pentesting/acceso-inicial.md)
 * [IAM](aws-pentesting/iam/README.md)
   * [Políticas de IAM](aws-pentesting/iam/politicas-de-iam.md)
   * [Enumeraciones](aws-pentesting/iam/enumeraciones.md)
-  * [Escalación de privilegios](aws-pentesting/iam/escalacion-de-privilegios/README.md)
+  * [Escalación de privilegios](aws-pentesting/iam/escalacion-de-privilegios.md)
     * [Permisos de IAM](aws-pentesting/iam/escalacion-de-privilegios/permisos-de-iam.md)
     * [Permisos sobre políticas](aws-pentesting/iam/escalacion-de-privilegios/permisos-sobre-politicas.md)
 * [Notas](aws-pentesting/notas.md)
