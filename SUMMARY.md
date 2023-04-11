@@ -28,6 +28,13 @@
 * [S3](aws-pentesting/s3/README.md)
   * [Enumeración](aws-pentesting/s3/enumeracion.md)
   * [Page 1](aws-pentesting/s3/page-1.md)
+* [Lambda](aws-pentesting/lambda.md)
+* [EC2](aws-pentesting/ec2.md)
+* [VPC](aws-pentesting/vpc.md)
+* [RDS](aws-pentesting/rds.md)
+* [DynamoDB](aws-pentesting/dynamodb.md)
+* [ECS](aws-pentesting/ecs.md)
+* [AWS Secrets Manager](aws-pentesting/aws-secrets-manager.md)
 * [Notas](aws-pentesting/notas.md)
 
 ## 🔫 Red\_Team
