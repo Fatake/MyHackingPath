@@ -27,7 +27,7 @@
     * [IAM:PassRole\*](aws-pentesting/iam/escalacion-de-privilegios/iam-passrole.md)
 * [S3](aws-pentesting/s3/README.md)
   * [Enumeración](aws-pentesting/s3/enumeracion.md)
-  * [Page 1](aws-pentesting/s3/page-1.md)
+  * [S3\_public](aws-pentesting/s3/s3\_public.md)
 * [Lambda](aws-pentesting/lambda/README.md)
   * [Enum Lambda](aws-pentesting/lambda/enum-lambda.md)
   * [Enum API Gateway](aws-pentesting/lambda/enum-api-gateway.md)
@@ -39,7 +39,8 @@
 * [DynamoDB](aws-pentesting/dynamodb.md)
 * [ECS](aws-pentesting/ecs.md)
 * [AWS Secrets Manager](aws-pentesting/aws-secrets-manager.md)
-* [Notas](aws-pentesting/notas.md)
+* [Notas](aws-pentesting/notas/README.md)
+  * [Terraform](aws-pentesting/notas/terraform.md)
 
 ## 🔫 Red\_Team
 
