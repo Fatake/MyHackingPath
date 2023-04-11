@@ -25,6 +25,9 @@
     * [Permisos sobre políticas](aws-pentesting/iam/escalacion-de-privilegios/permisos-sobre-politicas.md)
     * [AssumeRolePolicy Update](aws-pentesting/iam/escalacion-de-privilegios/assumerolepolicy-update.md)
     * [IAM:PassRole\*](aws-pentesting/iam/escalacion-de-privilegios/iam-passrole.md)
+* [S3](aws-pentesting/s3/README.md)
+  * [Enumeración](aws-pentesting/s3/enumeracion.md)
+  * [Page 1](aws-pentesting/s3/page-1.md)
 * [Notas](aws-pentesting/notas.md)
 
 ## 🔫 Red\_Team
