@@ -31,6 +31,8 @@
 * [Lambda](aws-pentesting/lambda/README.md)
   * [Enum Lambda](aws-pentesting/lambda/enum-lambda.md)
   * [Enum API Gateway](aws-pentesting/lambda/enum-api-gateway.md)
+  * [RCE sobre Lambda](aws-pentesting/lambda/rce-sobre-lambda.md)
+  * [PassExistingRoleToNewLambdaThenInvoke](aws-pentesting/lambda/passexistingroletonewlambdatheninvoke.md)
 * [EC2](aws-pentesting/ec2/README.md)
   * [Enumeración](aws-pentesting/ec2/enumeracion.md)
   * [Lab Cloudgoat](aws-pentesting/ec2/lab-cloudgoat.md)
