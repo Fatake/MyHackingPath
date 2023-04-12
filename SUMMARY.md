@@ -38,7 +38,6 @@
     * [EditExistingLambdaFunctionWithRole](aws-pentesting/lambda/privesc-paths/editexistinglambdafunctionwithrole.md)
 * [EC2](aws-pentesting/ec2/README.md)
   * [Enumeración](aws-pentesting/ec2/enumeracion.md)
-  * [Cloudgoat](aws-pentesting/ec2/cloudgoat.md)
   * [Privesc-Paths](aws-pentesting/ec2/privesc-paths/README.md)
     * [EC2\_SSRF](aws-pentesting/ec2/privesc-paths/ec2\_ssrf.md)
     * [CreateEC2WhithExistingIP](aws-pentesting/ec2/privesc-paths/createec2whithexistingip.md)
