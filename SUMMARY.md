@@ -40,7 +40,7 @@
   * [Lab Cloudgoat](aws-pentesting/ec2/lab-cloudgoat.md)
 * [VPC](aws-pentesting/vpc.md)
 * [RDS](aws-pentesting/rds.md)
-* [DynamoDB](aws-pentesting/dynamodb/README.md)
+* [DynamoDB](aws-pentesting/dynamodb.md)
   * [Enumeración](aws-pentesting/dynamodb/enumeracion.md)
 * [ECS](aws-pentesting/ecs.md)
 * [AWS Secrets Manager](aws-pentesting/aws-secrets-manager.md)
