@@ -52,6 +52,7 @@
   * [Enumeración](aws-pentesting/dynamodb/enumeracion.md)
 * [ECS](aws-pentesting/ecs.md)
 * [AWS Secrets Manager](aws-pentesting/aws-secrets-manager.md)
+* [Análisis de vulnerabilidades Automatizado](aws-pentesting/analisis-de-vulnerabilidades-automatizado.md)
 * [Notas](aws-pentesting/notas/README.md)
   * [Terraform](aws-pentesting/notas/terraform.md)
 
