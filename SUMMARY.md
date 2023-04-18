@@ -77,6 +77,10 @@
 * [¿Qué es ATT\&CK?](red\_team/que-es-att-and-ck/README.md)
   * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
 
+## ✈ Pentesting
+
+* [El día a día en pentesting](pentesting/el-dia-a-dia-en-pentesting.md)
+
 ## 📱 Mobile
 
 * [Análisis de Aplicaciones Móviles en MobSF](mobile/analisis-de-aplicaciones-moviles-en-mobsf.md)
@@ -86,7 +90,4 @@
 
 * [Simple python HTTP Server](extras/simple-python-http-server.md)
 * [Simple NetCat file transfer](extras/simple-netcat-file-transfer.md)
-
-## ✈ Pentesting
-
-* [El día a día en pentesting](pentesting/el-dia-a-dia-en-pentesting.md)
+* [Comandos no categorizados](extras/comandos-no-categorizados.md)
