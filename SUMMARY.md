@@ -10,8 +10,10 @@
 * [Tipos de evaluaciones](myMethod/tipos-de-evaluaciones.md)
 * [Metodología general](myMethod/metodologia-general.md)
 * [Fase 1 - Reconocimiento](myMethod/fase-1-reconocimiento/README.md)
-  * [SubDominios](myMethod/fase-1-reconocimiento/subdominios.md)
-  * [Escaneo de Puertos](myMethod/fase-1-reconocimiento/escaneo-de-puertos.md)
+  * [Pasivo](myMethod/fase-1-reconocimiento/pasivo/README.md)
+    * [SubDominios](myMethod/fase-1-reconocimiento/pasivo/subdominios.md)
+  * [Activo](myMethod/fase-1-reconocimiento/activo/README.md)
+    * [Escaneo de Puertos](myMethod/fase-1-reconocimiento/activo/escaneo-de-puertos.md)
   * [¿Sin Ideas?](myMethod/fase-1-reconocimiento/sin-ideas.md)
 
 ## ☁ AWS Pentesting

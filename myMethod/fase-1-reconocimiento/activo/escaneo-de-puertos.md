@@ -1,8 +1,3 @@
----
-cover: ../../.gitbook/assets/descarga.jfif
-coverY: 0
----
-
 # Escaneo de Puertos
 
 ### Descubrimiento de Host <a href="#descubrimiento-de-host" id="descubrimiento-de-host"></a>
@@ -63,10 +58,10 @@ UDPPORTS=!(cat ResultadosNmap/nmap_UDPScan.gnmap | awk -F " " '{ s = ""; for (i 
 !nmap $TARGET -v -sT -sV -O -A -p T:22,80,443,$TCPPORTS,U:137,161,$UDPPORTS -oA ResultadosNmap/nmap_FULLScan
 ```
 
-## Herramienta propia automatizada
+## Herramienta autiomatizada
 
 {% embed url="https://github.com/Fatake/autonmap" %}
 autonmap script
 {% endembed %}
 
-![](../../.gitbook/assets/20220616\_095155.png)
+![](../../../.gitbook/assets/20220616\_095155.png)
