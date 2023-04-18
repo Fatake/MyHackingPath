@@ -7,6 +7,7 @@
 
 ## 📚 Mi Metodología de Pentesting <a href="#myMethod" id="myMethod"></a>
 
+* [Tipos de evaluaciones](myMethod/tipos-de-evaluaciones.md)
 * [Metodología general](myMethod/metodologia-general.md)
 * [Fase 1 - Reconocimiento](myMethod/fase-1-reconocimiento/README.md)
   * [SubDominios](myMethod/fase-1-reconocimiento/subdominios.md)
@@ -83,3 +84,7 @@
 
 * [Simple python HTTP Server](extras/simple-python-http-server.md)
 * [Simple NetCat file transfer](extras/simple-netcat-file-transfer.md)
+
+## ✈ Pentesting
+
+* [El día a día en pentesting](pentesting/el-dia-a-dia-en-pentesting.md)
