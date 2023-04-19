@@ -76,6 +76,7 @@
 
 * [Introducción a Azure y Office 365](azure-pentest/introduccion-a-azure-y-office-365.md)
 * [Introducción a Microsoft Indentity Services](azure-pentest/introduccion-a-microsoft-indentity-services.md)
+* [User Enum](azure-pentest/user-enum.md)
 * [Notas](azure-pentest/notas.md)
 
 ## 🔫 Red\_Team
