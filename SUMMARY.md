@@ -18,7 +18,7 @@
 
 ## ☁ AWS Pentesting
 
-* [Introducción a Amazon Web Services AWS](aws-pentesting/introduccion-a-amazon-web-services-aws.md)
+* [Introducción a Amazon Web Services AWS](aws-pentesting/intro-aws-services.md)
 * [Acceso Inicial](aws-pentesting/acceso-inicial.md)
 * [IAM](aws-pentesting/iam/README.md)
   * [Políticas de IAM](aws-pentesting/iam/politicas-de-iam.md)
@@ -72,10 +72,16 @@
 * [Notas](aws-pentesting/notas/README.md)
   * [Terraform](aws-pentesting/notas/terraform.md)
 
+## 🌩 Azure Coud Pentesting <a href="#azure-pentest" id="azure-pentest"></a>
+
+* [Introducción a Azure y Office 365](azure-pentest/introduccion-a-azure-y-office-365.md)
+* [Introducción a Microsoft Indentity Services](azure-pentest/introduccion-a-microsoft-indentity-services.md)
+* [Notas](azure-pentest/notas.md)
+
 ## 🔫 Red\_Team
 
-* [¿Qué es ATT\&CK?](red\_team/que-es-att-and-ck/README.md)
-  * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
+* [¿Qué es MITRE ATT\&CK?](red\_team/que-es-mitre-att-and-ck/README.md)
+  * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-mitre-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
 
 ## ✈ Pentesting
 
