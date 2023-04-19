@@ -7,7 +7,8 @@
 
 ## 📚 Mi Metodología de Pentesting <a href="#myMethod" id="myMethod"></a>
 
-* [Tipos de evaluaciones](myMethod/tipos-de-evaluaciones.md)
+* [Tipos de evaluaciones](myMethod/tipos-de-evaluaciones/README.md)
+  * [El día a día en pentesting](myMethod/tipos-de-evaluaciones/el-dia-a-dia-en-pentesting.md)
 * [Metodología general](myMethod/metodologia-general.md)
 * [Fase 1 - Reconocimiento](myMethod/fase-1-reconocimiento/README.md)
   * [Pasivo](myMethod/fase-1-reconocimiento/pasivo/README.md)
@@ -83,10 +84,6 @@
 
 * [¿Qué es MITRE ATT\&CK?](red\_team/que-es-mitre-att-and-ck/README.md)
   * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-mitre-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
-
-## ✈ Pentesting
-
-* [El día a día en pentesting](pentesting/el-dia-a-dia-en-pentesting.md)
 
 ## 📱 Mobile
 

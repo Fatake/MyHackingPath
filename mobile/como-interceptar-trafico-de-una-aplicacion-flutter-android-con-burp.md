@@ -7,7 +7,7 @@ Dado que las aplicaciones construidas con el Frameworks de Google Flutter no uti
 * Herramienta Ghidra.
 * Aplicación ProxyDroid Instalada en Android.
 * Dispositivo rooteado Android.
-* Archivo **libflutter.so** extraído del archivo .apk
+* Archivo <mark style="color:green;">**libflutter.so**</mark> extraído del archivo <mark style="color:green;">**.apk**</mark>
 * Herramienta Frida.
 
 &#x20;
