@@ -16,6 +16,9 @@
   * [Activo](myMethod/fase-1-reconocimiento/activo/README.md)
     * [Escaneo de Puertos](myMethod/fase-1-reconocimiento/activo/escaneo-de-puertos.md)
   * [¿Sin Ideas?](myMethod/fase-1-reconocimiento/sin-ideas.md)
+* [Fase 2 - Explotación](myMethod/fase-2-explotacion/README.md)
+  * [Network Penetration Services](myMethod/fase-2-explotacion/network-penetration-services/README.md)
+    * [20/21 - FTP](myMethod/fase-2-explotacion/network-penetration-services/20-21-ftp.md)
 
 ## ☁ AWS Pentesting
 
@@ -77,7 +80,7 @@
 
 * [Introducción a Azure y Office 365](azure-pentest/introduccion-a-azure-y-office-365.md)
 * [Introducción a Microsoft Indentity Services](azure-pentest/introduccion-a-microsoft-indentity-services.md)
-* [User Enum](azure-pentest/user-enum.md)
+* [Enumeración](azure-pentest/enumeracion.md)
 * [Notas](azure-pentest/notas.md)
 
 ## 🔫 Red\_Team
