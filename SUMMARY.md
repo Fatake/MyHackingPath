@@ -84,6 +84,7 @@
 * [Enumeración](azure-pentest/enumeracion.md)
 * [Azure Files](azure-pentest/azure-files/README.md)
   * [Encontrar Fuga de Datos](azure-pentest/azure-files/encontrar-fuga-de-datos.md)
+* [Microsoft Graph](azure-pentest/microsoft-graph.md)
 * [Notas](azure-pentest/notas.md)
 
 ## 🔫 Red\_Team
@@ -93,8 +94,8 @@
 
 ## 📱 Mobile Pentesting <a href="#mob-pentest" id="mob-pentest"></a>
 
-* [Análisis de Aplicaciones Móviles en MobSF](mob-pentest/analisis-de-aplicaciones-moviles-en-mobsf.md)
-* [¿Cómo interceptar tráfico de una aplicación Flutter Android con Burp?](mob-pentest/como-interceptar-trafico-de-una-aplicacion-flutter-android-con-burp.md)
+* [Análisis de Aplicaciones Móviles en MobSF](mobile/analisis-de-aplicaciones-moviles-en-mobsf.md)
+* [¿Cómo interceptar tráfico de una aplicación Flutter Android con Burp?](mobile/como-interceptar-trafico-de-una-aplicacion-flutter-android-con-burp.md)
 
 ## 😎 Extras
 
