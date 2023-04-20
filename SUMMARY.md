@@ -36,6 +36,7 @@
 * [S3](aws-pentesting/s3/README.md)
   * [Enumeración](aws-pentesting/s3/enumeracion.md)
   * [S3\_public](aws-pentesting/s3/s3\_public.md)
+  * [OSINT](aws-pentesting/s3/osint.md)
 * [Lambda](aws-pentesting/lambda/README.md)
   * [Enum Lambda](aws-pentesting/lambda/enum-lambda.md)
   * [Enum API Gateway](aws-pentesting/lambda/enum-api-gateway.md)
@@ -81,6 +82,8 @@
 * [Introducción a Azure y Office 365](azure-pentest/introduccion-a-azure-y-office-365.md)
 * [Introducción a Microsoft Indentity Services](azure-pentest/introduccion-a-microsoft-indentity-services.md)
 * [Enumeración](azure-pentest/enumeracion.md)
+* [Azure Files](azure-pentest/azure-files/README.md)
+  * [Encontrar Fuga de Datos](azure-pentest/azure-files/encontrar-fuga-de-datos.md)
 * [Notas](azure-pentest/notas.md)
 
 ## 🔫 Red\_Team
@@ -88,10 +91,10 @@
 * [¿Qué es MITRE ATT\&CK?](red\_team/que-es-mitre-att-and-ck/README.md)
   * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-mitre-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
 
-## 📱 Mobile
+## 📱 Mobile Pentesting <a href="#mob-pentest" id="mob-pentest"></a>
 
-* [Análisis de Aplicaciones Móviles en MobSF](mobile/analisis-de-aplicaciones-moviles-en-mobsf.md)
-* [¿Cómo interceptar tráfico de una aplicación Flutter Android con Burp?](mobile/como-interceptar-trafico-de-una-aplicacion-flutter-android-con-burp.md)
+* [Análisis de Aplicaciones Móviles en MobSF](mob-pentest/analisis-de-aplicaciones-moviles-en-mobsf.md)
+* [¿Cómo interceptar tráfico de una aplicación Flutter Android con Burp?](mob-pentest/como-interceptar-trafico-de-una-aplicacion-flutter-android-con-burp.md)
 
 ## 😎 Extras
 
