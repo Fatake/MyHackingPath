@@ -89,6 +89,7 @@
 
 ## 🔫 Red\_Team
 
+* [Introducción a Red Team](red\_team/introduccion-a-red-team.md)
 * [¿Qué es MITRE ATT\&CK?](red\_team/que-es-mitre-att-and-ck/README.md)
   * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-mitre-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
 
