@@ -11,6 +11,7 @@
   * [El día a día en pentesting](myMethod/tipos-de-evaluaciones/el-dia-a-dia-en-pentesting.md)
 * [Metodología general](myMethod/metodologia-general.md)
 * [Fase 1 - Reconocimiento](myMethod/fase-1-reconocimiento/README.md)
+  * [Web / Host](myMethod/fase-1-reconocimiento/web-host.md)
   * [Pasivo](myMethod/fase-1-reconocimiento/pasivo/README.md)
     * [SubDominios](myMethod/fase-1-reconocimiento/pasivo/subdominios.md)
   * [Activo](myMethod/fase-1-reconocimiento/activo/README.md)
