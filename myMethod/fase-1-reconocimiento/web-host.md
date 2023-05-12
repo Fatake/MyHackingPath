@@ -47,4 +47,5 @@ tools
 * HaveIBeenPwned (para correos encontrados)
 * Breach-Parse
 * WeLeakInfo
+* hunter.io (encontrar correos)
 

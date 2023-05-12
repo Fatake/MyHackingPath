@@ -90,9 +90,11 @@
 
 ## 🔫 Red\_Team
 
-* [Introducción a Red Team](red\_team/introduccion-a-red-team.md)
+* [Introducción a Red Team](red\_team/introduccion-a-red-team/README.md)
+  * [Metodología](red\_team/introduccion-a-red-team/metodologia.md)
 * [¿Qué es MITRE ATT\&CK?](red\_team/que-es-mitre-att-and-ck/README.md)
   * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-mitre-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
+* [Malware Develop](red\_team/malware-develop.md)
 
 ## 📱 Mobile Pentesting <a href="#mob-pentest" id="mob-pentest"></a>
 
@@ -104,3 +106,4 @@
 * [Simple python HTTP Server](extras/simple-python-http-server.md)
 * [Simple NetCat file transfer](extras/simple-netcat-file-transfer.md)
 * [Comandos no categorizados](extras/comandos-no-categorizados.md)
+* [Bug Bounty Programs](extras/bug-bounty-programs.md)
