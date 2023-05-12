@@ -13,7 +13,7 @@
 * [Fase 1 - Reconocimiento](myMethod/fase-1-reconocimiento/README.md)
   * [Web / Host](myMethod/fase-1-reconocimiento/web-host.md)
   * [Pasivo](myMethod/fase-1-reconocimiento/pasivo/README.md)
-    * [SubDominios](myMethod/fase-1-reconocimiento/pasivo/subdominios.md)
+    * [SubDominios](myMethod/fase-1-reconocimiento/subdominios.md)
   * [Activo](myMethod/fase-1-reconocimiento/activo/README.md)
     * [Escaneo de Puertos](myMethod/fase-1-reconocimiento/activo/escaneo-de-puertos.md)
   * [¿Sin Ideas?](myMethod/fase-1-reconocimiento/sin-ideas.md)
@@ -23,7 +23,7 @@
 
 ## ☁ AWS Pentesting
 
-* [Introducción a Amazon Web Services AWS](aws-pentesting/intro-aws-services.md)
+* [Introducción a Amazon Web Services AWS](aws-pentesting/introduccion-a-amazon-web-services-aws.md)
 * [Acceso Inicial](aws-pentesting/acceso-inicial.md)
 * [IAM](aws-pentesting/iam/README.md)
   * [Políticas de IAM](aws-pentesting/iam/politicas-de-iam.md)
@@ -93,7 +93,7 @@
 * [Introducción a Red Team](red\_team/introduccion-a-red-team/README.md)
   * [Metodología](red\_team/introduccion-a-red-team/metodologia.md)
 * [¿Qué es MITRE ATT\&CK?](red\_team/que-es-mitre-att-and-ck/README.md)
-  * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-mitre-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
+  * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
 * [Malware Develop](red\_team/malware-develop.md)
 
 ## 📱 Mobile Pentesting <a href="#mob-pentest" id="mob-pentest"></a>

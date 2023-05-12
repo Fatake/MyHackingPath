@@ -6,7 +6,7 @@ coverY: 0
 
 ## ¡Hola!
 
-Hola, me llamo Paulo Ruiz y este es mi camino personal en el mundo del pentesting y hacking ético.&#x20;
+Hola, me llamo Paulo Ruiz, este blog sirve como metodología general de todo mi Path de aprendizaje en pentesting.
 
 Este pequeño libro pretendo exponer todos los conocimientos/técnicas/trucos que he aprendido durante mi carrera de consultor en seguridad informática.
 
