@@ -20,6 +20,7 @@
 * [Fase 2 - Explotación](myMethod/fase-2-explotacion/README.md)
   * [Network Penetration Services](myMethod/fase-2-explotacion/network-penetration-services/README.md)
     * [20/21 - FTP](myMethod/fase-2-explotacion/network-penetration-services/20-21-ftp.md)
+    * [443 - SMB](myMethod/fase-2-explotacion/network-penetration-services/443-smb.md)
 
 ## ☁ AWS Pentesting
 
