@@ -6,7 +6,7 @@ description: What Is Active Directory
 
 <mark style="color:green;">**Active Directory (AD)**</mark> es un servicio de directorio desarrollado por Microsoft que se utiliza para administrar y organizar los recursos de red en un entorno empresarial. Es una parte integral del sistema operativo Windows Server y se implementa principalmente en entornos de red de Microsoft.
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41) (1).png" alt=""><figcaption></figcaption></figure>
 
 Active Directory actúa como un servicio de directorio centralizado que almacena información sobre objetos en una red, como usuarios, grupos, equipos y recursos compartidos. Proporciona un mecanismo para autenticar y autorizar el acceso a estos objetos, lo que permite a los administradores de red controlar y gestionar de manera eficiente los recursos de red.
 

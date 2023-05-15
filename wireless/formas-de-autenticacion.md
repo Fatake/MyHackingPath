@@ -1,6 +1,6 @@
 # Formas de Autenticación
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 ## Open system Authentication process
 

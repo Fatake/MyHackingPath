@@ -115,11 +115,12 @@
 * [Terminología](wireless/terminologia.md)
 * [Tipos de Wireless Networks](wireless/tipos-de-wireless-networks.md)
 * [Formas de Autenticación](wireless/formas-de-autenticacion.md)
-* [Cifrado Wireless](wireless/cifrado-wireless/README.md)
-  * [WEP](wireless/cifrado-wireless/wep.md)
-  * [WPA](wireless/cifrado-wireless/wpa.md)
-  * [WPA2](wireless/cifrado-wireless/wpa2.md)
-  * [WPA3](wireless/cifrado-wireless/wpa3.md)
+* [Cifrados](wireless/cifrados/README.md)
+  * [WEP](wireless/cifrados/wep.md)
+  * [WPA](wireless/cifrados/wpa.md)
+  * [WPA2](wireless/cifrados/wpa2.md)
+  * [WPA3](wireless/cifrados/wpa3.md)
+* [Ataques](wireless/ataques.md)
 
 ## 😎 Extras
 

@@ -4,7 +4,7 @@
 
 El AD DS Schema es un componente crítico de Active Directory Domain Services. Define la estructura y el conjunto de atributos que pueden ser utilizados para describir y representar objetos en un dominio de Active Directory. (Como un libro de relas y definiciones para cada objeto creado en AD).
 
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59) (2).png" alt=""><figcaption></figcaption></figure>
 
 El esquema de AD DS actúa como una plantilla o plan maestro que define los tipos de objetos que pueden existir en Active Directory, así como los atributos y propiedades asociados a cada tipo de objeto. Estos objetos pueden incluir usuarios, grupos, equipos, contactos y otros elementos que forman parte de la infraestructura de Active Directory.
 
