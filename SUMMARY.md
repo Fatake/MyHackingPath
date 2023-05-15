@@ -98,6 +98,13 @@
   * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
 * [Malware Develop](red\_team/malware-develop.md)
 
+## 💾 Active Directory <a href="#ad" id="ad"></a>
+
+* [¿Qué es Directorio Activo?](ad/que-es-directorio-activo.md)
+* [Componentes AD](ad/componentes-ad/README.md)
+  * [Físicos](ad/componentes-ad/fisicos.md)
+  * [Lógicos](ad/componentes-ad/logicos.md)
+
 ## 📱 Mobile Pentesting <a href="#mob-pentest" id="mob-pentest"></a>
 
 * [Análisis de Aplicaciones Móviles en MobSF](mobile/analisis-de-aplicaciones-moviles-en-mobsf.md)
