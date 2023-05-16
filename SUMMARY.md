@@ -104,6 +104,7 @@
 * [Componentes AD](ad/componentes-ad/README.md)
   * [Físicos](ad/componentes-ad/fisicos.md)
   * [Lógicos](ad/componentes-ad/logicos.md)
+* [AD Lab](ad/ad-lab.md)
 
 ## 📱 Mobile Pentesting <a href="#mob-pentest" id="mob-pentest"></a>
 

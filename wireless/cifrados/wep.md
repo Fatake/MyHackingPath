@@ -10,7 +10,7 @@ Es un protocolo de seguridad definido en el estandar 802.11b. Fupe diseñado par
 
 WEP ocupa 24 bits del vecto de inicialización IV para formar un steam cifrado RC4 y una un checksum CRC-32 para integridad de la transmisión de los datos
 
-<figure><img src="../../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 Tiene una vulnerabilidad significante y su diseño tiene defectos que lka hacen facilmente crackeable.
 

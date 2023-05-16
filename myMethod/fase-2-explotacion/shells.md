@@ -2,7 +2,7 @@
 
 ## Reverse Shell
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Target to Attacker</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (3).png" alt=""><figcaption><p>Target to Attacker</p></figcaption></figure>
 
 ### Atacante Linux
 

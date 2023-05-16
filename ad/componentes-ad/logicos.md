@@ -24,7 +24,7 @@ Cada dominio de Active Directory tiene su propia base de datos y se gestiona de 
 
 Grupos de domínios, una estructura jerárquica de dominios en Active Directory. Un árbol de AD se forma cuando varios dominios están conectados en una relación de confianza y comparten un espacio de nombres de dominio común
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 En un árbol de AD, un dominio raíz es el dominio primario que se establece inicialmente. A partir de ahí, se pueden agregar dominios secundarios que están vinculados jerárquicamente al dominio raíz. Cada dominio secundario se convierte en un hijo del dominio raíz y forma una relación de confianza con él.
 
@@ -36,7 +36,7 @@ La ventaja de usar árboles de Active Directory es que permiten una administraci
 
 Un AD Forest es una estructura de alto nivel en Active Directory que consiste en uno o más árboles de dominio. En términos simples, un bosque de AD es una colección de árboles de AD interconectados.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (4).png" alt=""><figcaption></figcaption></figure>
 
 Un bosque de Active Directory se forma cuando varios árboles de dominio se conectan mediante relaciones de confianza. Cada árbol de dominio en el bosque es independiente y tiene su propio espacio de nombres de dominio único, pero comparten una estructura común y una base de datos de Active Directory.&#x20;
 
@@ -44,11 +44,11 @@ Un bosque de Active Directory se forma cuando varios árboles de dominio se cone
 
 Las Organizational Units (Unidades Organizativas), también conocidas como OUs, son contenedores lógicos dentro de un dominio de Active Directory (AD) que se utilizan para organizar y administrar los objetos del directorio, como usuarios, grupos y equipos. Las OUs proporcionan una forma estructurada de gestionar y aplicar políticas específicas a grupos de objetos relacionados en una jerarquía lógica.
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Trusts / Relaciones de confianza
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Objetos
 
