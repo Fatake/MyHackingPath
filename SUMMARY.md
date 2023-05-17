@@ -3,7 +3,7 @@
 ## 👓 Wellcome
 
 * [My Personal Hacking Path](README.md)
-  * [Woami](wellcome/readme/woami.md)
+  * [Sobre mí](wellcome/readme/sobre-mi.md)
 
 ## 📚 Mi Metodología de Pentesting <a href="#myMethod" id="myMethod"></a>
 
