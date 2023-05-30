@@ -30,7 +30,7 @@ Aceptar los términos y condiciones, después elegir <mark style="color:green;">
 
 Seleccionar el disco de 60gb y dar clic en <mark style="color:green;">**New**</mark> -> <mark style="color:green;">**Apply**</mark> y luego en <mark style="color:green;">**Next**</mark> y finalmente esperar a la instalación de sistema operativo
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Configuración del DC
 
@@ -56,7 +56,7 @@ Después del reinicio, se abrirá la consola **Server Manager**, Dar Click en <m
 
 Después en Server Roles, seleccionar <mark style="color:green;">**Active Directory Domain Services**</mark> y luego en <mark style="color:green;">**Add Features**</mark> y luego en <mark style="color:green;">**Next**</mark> 3 veces y finalmente en Install
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
 
 Al finalizar la Intalación, dar click en Close
 

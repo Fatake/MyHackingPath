@@ -1,12 +1,12 @@
 # Físicos
 
-## &#x20;Domain Controller
+## Domain Controller
 
 Un Domain Controller es un servidor que ejecuta el sistema operativo Windows Server y tiene instalado el servicio de <mark style="color:green;">**Active Directory Domain Services (AD DS).**</mark> Contiene toda la información de: las computadoras de los usuarios, las impresoras, llaves de acceso.
 
 La función principal de un Domain Controller es almacenar, autenticar y proporcionar acceso a los recursos de red dentro de un dominio específico. Un dominio en Active Directory es una agrupación lógica de objetos, como usuarios, equipos y recursos, que comparten una base de datos centralizada y un conjunto común de políticas de seguridad y administración.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (3).png" alt=""><figcaption></figcaption></figure>
 
 Cuando se establece un dominio de Active Directory, al menos uno de los servidores en ese dominio se designa como Controlador de Dominio. El Controlador de Dominio contiene una réplica del directorio de Active Directory, que incluye información sobre todos los objetos y atributos en el dominio.
 

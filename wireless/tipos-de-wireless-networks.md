@@ -8,4 +8,4 @@ Wireless Network (Wi-Fi) refers to WLANs base on IEEE 802.11 standard, which all
 
 
 
-<figure><img src="../.gitbook/assets/image (1) (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3) (2) (1).png" alt=""><figcaption></figcaption></figure>

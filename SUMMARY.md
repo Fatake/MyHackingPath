@@ -23,6 +23,14 @@
     * [20/21 - FTP](myMethod/fase-2-explotacion/network-penetration-services/20-21-ftp.md)
     * [443 - SMB](myMethod/fase-2-explotacion/network-penetration-services/443-smb.md)
 
+## 🔫 Red\_Team
+
+* [Introducción a Red Team](red\_team/introduccion-a-red-team.md)
+* [¿Qué es MITRE ATT\&CK?](red\_team/que-es-mitre-att-and-ck/README.md)
+  * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
+* [Malware DevOps](red\_team/malware-devops/README.md)
+  * [Arquitectura de Windows](red\_team/malware-devops/arquitectura-de-windows.md)
+
 ## ☁ AWS Pentesting
 
 * [Introducción a Amazon Web Services AWS](aws-pentesting/introduccion-a-amazon-web-services-aws.md)
@@ -89,14 +97,6 @@
   * [Encontrar Fuga de Datos](azure-pentest/azure-files/encontrar-fuga-de-datos.md)
 * [Microsoft Graph](azure-pentest/microsoft-graph.md)
 * [Notas](azure-pentest/notas.md)
-
-## 🔫 Red\_Team
-
-* [Introducción a Red Team](red\_team/introduccion-a-red-team/README.md)
-  * [Metodología](red\_team/introduccion-a-red-team/metodologia.md)
-* [¿Qué es MITRE ATT\&CK?](red\_team/que-es-mitre-att-and-ck/README.md)
-  * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
-* [Malware Develop](red\_team/malware-develop.md)
 
 ## 💾 Active Directory <a href="#ad" id="ad"></a>
 
