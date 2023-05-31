@@ -40,7 +40,7 @@ Al finalizar la instalación del sistema operativo, se te pedirá colocar una co
 
 En VMware dar click en VM -> Install VMware tools y ejecutar en Windows Server el Setup64
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 En el buscador, escribir <mark style="color:green;">**computer**</mark> y dar click en <mark style="color:green;">**View Your PC name**</mark>
 
@@ -72,7 +72,7 @@ Seleccionar la opción <mark style="color:green;">**Add a New Forest**</mark> y 
 
 Después, se tiene que configurar una contraseña para el DSRM y dar click en Next 5 veces y finalmente dar click en Install.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 Al finalizar la instalación, el servidor se reiniciará e iniciará ya con el AD configurado.
 

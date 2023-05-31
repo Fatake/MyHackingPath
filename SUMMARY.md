@@ -23,12 +23,12 @@
     * [20/21 - FTP](myMethod/fase-2-explotacion/network-penetration-services/20-21-ftp.md)
     * [443 - SMB](myMethod/fase-2-explotacion/network-penetration-services/443-smb.md)
 
-## 👾 MalDevOps
+## 👾 Malware
 
-* [Malware DevOps](maldevops/malware-devops.md)
-* [Arquitectura de Windows](maldevops/arquitectura-de-windows/README.md)
-  * [Windows API](maldevops/arquitectura-de-windows/windows-api.md)
-* [PE](maldevops/pe.md)
+* [Malware DevOps](malware/malware-devops.md)
+* [Arquitectura de Windows](malware/arquitectura-de-windows/README.md)
+  * [Windows API](malware/arquitectura-de-windows/windows-api.md)
+* [PE](malware/pe.md)
 
 ## ☁ AWS Pentesting
 
