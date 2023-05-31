@@ -52,7 +52,7 @@ Luego renombrar la computadora, para este ejemplo se usó el nombre ECorp-DC (pu
 
 Después del reinicio, se abrirá la consola **Server Manager**, Dar Click en <mark style="color:green;">**configure this local Server**</mark>, luego en <mark style="color:green;">**Add roles and features**</mark> y luego en <mark style="color:green;">**Next**</mark> 3 veces
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (5).png" alt=""><figcaption></figcaption></figure>
 
 Después en Server Roles, seleccionar <mark style="color:green;">**Active Directory Domain Services**</mark> y luego en <mark style="color:green;">**Add Features**</mark> y luego en <mark style="color:green;">**Next**</mark> 3 veces y finalmente en Install
 
@@ -68,7 +68,7 @@ Finalmente, en **Server Manager Dashboard** se encuenta un icono de bandera con 
 
 Seleccionar la opción <mark style="color:green;">**Add a New Forest**</mark> y escribir un nombre de dominio, para este ejemplo se usará ECORP.local y después dar click en <mark style="color:green;">**Next**</mark>
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (5).png" alt=""><figcaption></figcaption></figure>
 
 Después, se tiene que configurar una contraseña para el DSRM y dar click en Next 5 veces y finalmente dar click en Install.
 

@@ -29,7 +29,9 @@
 * [¿Qué es MITRE ATT\&CK?](red\_team/que-es-mitre-att-and-ck/README.md)
   * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
 * [Malware DevOps](red\_team/malware-devops/README.md)
-  * [Arquitectura de Windows](red\_team/malware-devops/arquitectura-de-windows.md)
+  * [Arquitectura de Windows](red\_team/malware-devops/arquitectura-de-windows/README.md)
+    * [Windows API](red\_team/malware-devops/arquitectura-de-windows/windows-api.md)
+  * [PE](red\_team/malware-devops/pe.md)
 
 ## ☁ AWS Pentesting
 
