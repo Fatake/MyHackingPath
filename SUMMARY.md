@@ -26,6 +26,7 @@
   * [Metodología para Pentesting Web](myMethod/fase-2-explotacion/metodologia-para-pentesting-web/README.md)
     * [Identificación Tecnologías web](myMethod/fase-2-explotacion/metodologia-para-pentesting-web/identificacion-tecnologias-web.md)
     * [Fuzzing](myMethod/fase-2-explotacion/metodologia-para-pentesting-web/fuzzing.md)
+    * [Laboratorios](myMethod/fase-2-explotacion/metodologia-para-pentesting-web/laboratorios.md)
 
 ## 👾 Malware
 
@@ -153,8 +154,10 @@
 
 ## 😎 Extras
 
-* [Docker](extras/docker.md)
-* [Simple python HTTP Server](extras/simple-python-http-server.md)
+* [Docker](extras/docker/README.md)
+  * [Port Forward y volúmenes](extras/docker/port-forward-y-volumenes.md)
+  * [Docker Compose](extras/docker/docker-compose.md)
 * [Simple NetCat file transfer](extras/simple-netcat-file-transfer.md)
 * [Comandos no categorizados](extras/comandos-no-categorizados.md)
 * [Bug Bounty Programs](extras/bug-bounty-programs.md)
+* [Page 1](extras/page-1.md)
