@@ -15,12 +15,16 @@
   * [SubDominios](myMethod/fase-1-reconocimiento/subdominios.md)
   * [Descubrimiento de correos electrónicos](myMethod/fase-1-reconocimiento/descubrimiento-de-correos-electronicos.md)
   * [Escaneo de Puertos](myMethod/fase-1-reconocimiento/escaneo-de-puertos.md)
+  * [Credenciales y brechas de seguridad](myMethod/fase-1-reconocimiento/credenciales-y-brechas-de-seguridad.md)
+  * [Identificación Tecnologías web](myMethod/fase-1-reconocimiento/identificacion-tecnologias-web.md)
   * [¿Sin Ideas?](myMethod/fase-1-reconocimiento/sin-ideas.md)
 * [Fase 2 - Explotación](myMethod/fase-2-explotacion/README.md)
   * [Shells](myMethod/fase-2-explotacion/shells.md)
   * [Network Penetration Services](myMethod/fase-2-explotacion/network-penetration-services/README.md)
     * [20/21 - FTP](myMethod/fase-2-explotacion/network-penetration-services/20-21-ftp.md)
     * [443 - SMB](myMethod/fase-2-explotacion/network-penetration-services/443-smb.md)
+  * [Web](myMethod/fase-2-explotacion/web/README.md)
+    * [Fuzzing](myMethod/fase-2-explotacion/web/fuzzing.md)
 
 ## 👾 Malware
 
