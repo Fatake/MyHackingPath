@@ -24,6 +24,7 @@
     * [22 - SSH](method/explotacion/network/22-ssh.md)
     * [139|445- SMB](method/explotacion/network/139-or-445-smb.md)
     * [80|443 - HTTP/HTTPS](method/explotacion/network/80-or-443-http-https.md)
+* [Toma de notas](method/toma-de-notas.md)
 
 ## 👾 Malware
 
@@ -167,7 +168,4 @@
 * [Docker](extras/docker/README.md)
   * [Port Forward y volúmenes](extras/docker/port-forward-y-volumenes.md)
   * [Docker Compose](extras/docker/docker-compose.md)
-* [Simple NetCat file transfer](extras/simple-netcat-file-transfer.md)
-* [Comandos no categorizados](extras/comandos-no-categorizados.md)
-* [Bug Bounty Programs](extras/bug-bounty-programs.md)
-* [Page 1](extras/page-1.md)
+* [Comandos Utiles](extras/comandos-utiles.md)
