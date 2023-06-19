@@ -36,7 +36,7 @@ Seleccionar el disco de 60gb y dar clic en <mark style="color:green;">**New**</m
 
 Al finalizar la instalación del sistema operativo, se te pedirá colocar una contraseña
 
-<figure><img src="../.gitbook/assets/image (7).png" alt="" width="541"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (5).png" alt="" width="541"><figcaption></figcaption></figure>
 
 En VMware dar click en VM -> Install VMware tools y ejecutar en Windows Server el Setup64
 
@@ -60,7 +60,7 @@ Después en Server Roles, seleccionar <mark style="color:green;">**Active Direct
 
 Al finalizar la Intalación, dar click en Close
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (5).png" alt=""><figcaption></figcaption></figure>
 
 Finalmente, en **Server Manager Dashboard** se encuenta un icono de bandera con un símbolo de Warning, dar click en <mark style="color:green;">**Promote this server to a domain controler**</mark>.
 
@@ -76,5 +76,5 @@ Después, se tiene que configurar una contraseña para el DSRM y dar click en Ne
 
 Al finalizar la instalación, el servidor se reiniciará e iniciará ya con el AD configurado.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (7).png" alt=""><figcaption></figcaption></figure>
 
