@@ -5,29 +5,25 @@
 * [My Personal Hacking Path](README.md)
   * [Whoami](wellcome/readme/whoami.md)
 
-## 📚 Mi Metodología de Pentesting <a href="#myMethod" id="myMethod"></a>
+## 📚 Mi Metodología de Pentesting <a href="#method" id="method"></a>
 
-* [Tipos de evaluaciones](myMethod/tipos-de-evaluaciones/README.md)
-  * [El día a día en pentesting](myMethod/tipos-de-evaluaciones/el-dia-a-dia-en-pentesting.md)
-* [Metodología general](myMethod/metodologia-general.md)
-* [Fase 1 - Reconocimiento](myMethod/fase-1-reconocimiento/README.md)
-  * [Web / Host](myMethod/fase-1-reconocimiento/web-host.md)
-  * [SubDominios](myMethod/fase-1-reconocimiento/subdominios.md)
-  * [Descubrimiento de correos electrónicos](myMethod/fase-1-reconocimiento/descubrimiento-de-correos-electronicos.md)
-  * [Escaneo de Puertos](myMethod/fase-1-reconocimiento/escaneo-de-puertos.md)
-  * [Credenciales y brechas de seguridad](myMethod/fase-1-reconocimiento/credenciales-y-brechas-de-seguridad.md)
-  * [¿Sin Ideas?](myMethod/fase-1-reconocimiento/sin-ideas.md)
-* [Fase 2 - Explotación](myMethod/fase-2-explotacion/README.md)
-  * [Shells](myMethod/fase-2-explotacion/shells.md)
-  * [Network Penetration Services](myMethod/fase-2-explotacion/network-penetration-services/README.md)
-    * [20|21 - FTP](myMethod/fase-2-explotacion/network-penetration-services/20-or-21-ftp.md)
-    * [22 - SSH](myMethod/fase-2-explotacion/network-penetration-services/22-ssh.md)
-    * [443 - SMB](myMethod/fase-2-explotacion/network-penetration-services/443-smb.md)
-    * [80|443 - HTTP/HTTPS](myMethod/fase-2-explotacion/network-penetration-services/80-or-443-http-https.md)
-  * [Metodología para Pentesting Web](myMethod/fase-2-explotacion/metodologia-para-pentesting-web/README.md)
-    * [Identificación Tecnologías web](myMethod/fase-2-explotacion/metodologia-para-pentesting-web/identificacion-tecnologias-web.md)
-    * [Fuzzing](myMethod/fase-2-explotacion/metodologia-para-pentesting-web/fuzzing.md)
-    * [Laboratorios](myMethod/fase-2-explotacion/metodologia-para-pentesting-web/laboratorios.md)
+* [Tipos de evaluaciones](method/tipos-de-evaluaciones/README.md)
+  * [El día a día en pentesting](method/tipos-de-evaluaciones/el-dia-a-dia-en-pentesting.md)
+* [Metodología general](method/metodologia-general.md)
+* [Fase 1 - Reconocimiento](method/recon/README.md)
+  * [Web / Host](method/recon/web-host.md)
+  * [SubDominios](method/recon/subdominios.md)
+  * [Descubrimiento de correos electrónicos](method/recon/descubrimiento-de-correos-electronicos.md)
+  * [Escaneo de Puertos](method/recon/escaneo-de-puertos.md)
+  * [Credenciales y brechas de seguridad](method/recon/credenciales-y-brechas-de-seguridad.md)
+  * [¿Sin Ideas?](method/recon/sin-ideas.md)
+* [Fase 2 - Explotación](method/explotacion/README.md)
+  * [Shells](method/explotacion/shells.md)
+  * [Network Penetration Services](method/explotacion/network/README.md)
+    * [20|21 - FTP](method/explotacion/network/20-or-21-ftp.md)
+    * [22 - SSH](method/explotacion/network/22-ssh.md)
+    * [139|445- SMB](method/explotacion/network/139-or-445-smb.md)
+    * [80|443 - HTTP/HTTPS](method/explotacion/network/80-or-443-http-https.md)
 
 ## 👾 Malware
 
@@ -54,6 +50,16 @@
   * [DLL Injection](malware/process-injection/dll-injection.md)
   * [Shellcode Injection](malware/process-injection/shellcode-injection.md)
   * [APC Injection](malware/process-injection/apc-injection.md)
+
+## 🌐 Web-Pentesting
+
+* [Metodología para Pentesting Web](web-pentesting/metodologia-para-pentesting-web.md)
+* [Footprinting](web-pentesting/footprinting/README.md)
+  * [Identificación Tecnologías web](web-pentesting/footprinting/identificacion-tecnologias-web/README.md)
+    * [WordPress](web-pentesting/footprinting/identificacion-tecnologias-web/wordpress.md)
+  * [Fuzzing](web-pentesting/footprinting/fuzzing.md)
+  * [Validación de los certificados](web-pentesting/footprinting/validacion-de-los-certificados.md)
+* [Laboratorios](web-pentesting/laboratorios.md)
 
 ## ☁ AWS Pentesting
 

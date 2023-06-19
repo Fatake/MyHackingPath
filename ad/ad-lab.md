@@ -44,11 +44,11 @@ En VMware dar click en VM -> Install VMware tools y ejecutar en Windows Server e
 
 En el buscador, escribir <mark style="color:green;">**computer**</mark> y dar click en <mark style="color:green;">**View Your PC name**</mark>
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (4).png" alt=""><figcaption></figcaption></figure>
 
 Luego renombrar la computadora, para este ejemplo se usó el nombre ECorp-DC (puede ser el nombre que sea) después, se reiniciará el servidor.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
 
 Después del reinicio, se abrirá la consola **Server Manager**, Dar Click en <mark style="color:green;">**configure this local Server**</mark>, luego en <mark style="color:green;">**Add roles and features**</mark> y luego en <mark style="color:green;">**Next**</mark> 3 veces
 
