@@ -59,6 +59,7 @@
     * [WordPress](web-pentesting/footprinting/identificacion-tecnologias-web/wordpress.md)
     * [Joomla](web-pentesting/footprinting/identificacion-tecnologias-web/joomla.md)
     * [Drupal](web-pentesting/footprinting/identificacion-tecnologias-web/drupal.md)
+    * [Magento](web-pentesting/footprinting/identificacion-tecnologias-web/magento.md)
   * [Fuzzing](web-pentesting/footprinting/fuzzing.md)
   * [Validación de los certificados](web-pentesting/footprinting/validacion-de-los-certificados.md)
 * [Laboratorios](web-pentesting/laboratorios.md)
