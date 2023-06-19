@@ -5,7 +5,7 @@
 Docker es una plataforma de software que le permite crear, probar e implementar aplicaciones rápidamente. Docker empaqueta software en unidades estandarizadas llamadas [contenedores](https://hub.docker.com/search?q=\&type=image) que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, herramientas de sistema, código y tiempo de ejecución. Con Docker, puede implementar y ajustar la escala de aplicaciones rápidamente en cualquier entorno con la certeza de saber que su código se ejecutará.\
 
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>how docker works</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>how docker works</p></figcaption></figure>
 
 ## Dockerfile
 
