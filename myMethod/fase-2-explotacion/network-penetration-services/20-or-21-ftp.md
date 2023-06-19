@@ -14,8 +14,6 @@ nc -vn <IP> 21
 openssl s_client -connect crossfit.htb:21 -starttls ftp #Get certificate if any
 ```
 
-
-
 ## Scripts de Nmap
 
 {% code overflow="wrap" %}
@@ -23,8 +21,6 @@ openssl s_client -connect crossfit.htb:21 -starttls ftp #Get certificate if any
 nmap --script ftp-anon,ftp-bounce,ftp-libopie,ftp-proftpd-backdoor,ftp-vsftpd-backdoor,ftp-vuln-cve2010-4221,tftp-enum -p 21 192.168.6.66
 ```
 {% endcode %}
-
-
 
 ## Conecciones
 
@@ -45,6 +41,8 @@ lftp 10.10.10.208:~> login
 Usage: login <user|URL> [<pass>]
 lftp 10.10.10.208:~> login username Password
 ```
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Fuerza bruta de usuarios
 
@@ -71,13 +69,29 @@ run
 
 
 
-## Archivos de configuración relacionados a FTP
+### Archivos de configuración relacionados a FTP
 
 • ftpusers
 
 • ftp.conf
 
 • proftpd.conf
+
+
+
+## Laboratorios
+
+FTP es un protocolo ampliamente utilizado para la **transferencia de archivos** en redes. La enumeración del servicio FTP implica recopilar información relevante, como la versión del servidor FTP, la configuración de permisos de archivos, los usuarios y las contraseñas (mediante ataques de fuerza bruta o guessing), entre otros.
+
+* **Docker-FTP-Server**: [https://github.com/garethflowers/docker-ftp-server](https://github.com/garethflowers/docker-ftp-server)
+
+Una de las herramientas que usamos en esta clase para el primer proyecto que nos descargamos es ‘**Hydra**‘. Hydra es una herramienta de pruebas de penetración de código abierto que se utiliza para realizar ataques de fuerza bruta contra sistemas y servicios protegidos por contraseña. La herramienta es altamente personalizable y admite una amplia gama de protocolos de red, como HTTP, FTP, SSH, Telnet, SMTP, entre otros.
+
+El siguiente de los proyectos que utilizamos para desplegar el contenedor que permite la autenticación de usuarios invitados para FTP, es el proyecto ‘**docker-anon-ftp**‘ de ‘**metabrainz**‘. A continuación, se os proporciona el enlace al proyecto:
+
+* **Docker-ANON-FTP**: [https://github.com/metabrainz/docker-anon-ftp](https://github.com/metabrainz/docker-anon-ftp)
+
+
 
 
 

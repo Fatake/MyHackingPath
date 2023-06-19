@@ -76,5 +76,5 @@ Después, se tiene que configurar una contraseña para el DSRM y dar click en Ne
 
 Al finalizar la instalación, el servidor se reiniciará e iniciará ya con el AD configurado.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 

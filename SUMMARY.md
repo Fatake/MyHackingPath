@@ -21,6 +21,7 @@
   * [Shells](myMethod/fase-2-explotacion/shells.md)
   * [Network Penetration Services](myMethod/fase-2-explotacion/network-penetration-services/README.md)
     * [20|21 - FTP](myMethod/fase-2-explotacion/network-penetration-services/20-or-21-ftp.md)
+    * [22 - SSH](myMethod/fase-2-explotacion/network-penetration-services/22-ssh.md)
     * [443 - SMB](myMethod/fase-2-explotacion/network-penetration-services/443-smb.md)
     * [80|443 - HTTP/HTTPS](myMethod/fase-2-explotacion/network-penetration-services/80-or-443-http-https.md)
   * [Metodología para Pentesting Web](myMethod/fase-2-explotacion/metodologia-para-pentesting-web/README.md)
