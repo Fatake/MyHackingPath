@@ -25,6 +25,7 @@
     * [22 - SSH](method/explotacion/network/22-ssh.md)
     * [139|445- SMB](method/explotacion/network/139-or-445-smb.md)
     * [80|443 - HTTP/HTTPS](method/explotacion/network/80-or-443-http-https.md)
+* [Fase 3 - Post Explotación](method/post-exploit.md)
 * [Toma de notas](method/toma-de-notas.md)
 
 ## 👾 Malware
@@ -64,6 +65,9 @@
     * [Magento](web-pentesting/footprinting/identificacion-tecnologias-web/magento.md)
   * [Fuzzing](web-pentesting/footprinting/fuzzing.md)
   * [Validación de los certificados](web-pentesting/footprinting/validacion-de-los-certificados.md)
+* [Vulnerabilidades comunes](web-pentesting/vulnerabilidades-comunes/README.md)
+  * [SQL Injection](web-pentesting/vulnerabilidades-comunes/sql-injection.md)
+  * [Cross-site scripting](web-pentesting/vulnerabilidades-comunes/cross-site-scripting.md)
 * [Laboratorios](web-pentesting/laboratorios.md)
 
 ## ☁ AWS Pentesting
