@@ -68,6 +68,8 @@
 * [Vulnerabilidades comunes](web-pentesting/vulnerabilidades-comunes/README.md)
   * [SQL Injection](web-pentesting/vulnerabilidades-comunes/sql-injection.md)
   * [Cross-site scripting](web-pentesting/vulnerabilidades-comunes/cross-site-scripting.md)
+  * [XXE Injection](web-pentesting/vulnerabilidades-comunes/xxe-injection.md)
+  * [LFI](web-pentesting/vulnerabilidades-comunes/lfi.md)
 * [Laboratorios](web-pentesting/laboratorios.md)
 
 ## ☁ AWS Pentesting
