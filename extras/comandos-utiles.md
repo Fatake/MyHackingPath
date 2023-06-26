@@ -26,6 +26,31 @@ Actualizar todos los paquetes de windows
 winget upgrade --all
 ```
 
+## Mejorar remote terminal
+
+Cuando ganas unas sesión remota usar los siguientes comandos para tener una terminal mas iteractiva
+
+{% code overflow="wrap" %}
+```bash
+# Cuando recibas la conección
+script /dev/null -c bash
+
+ctrl +z # LLevar la terminal victima en backgroud
+
+# En terminal atacante
+stty raw -echo; fg
+reset xterm + enter
+
+# Ajusta filas y columnas
+# Sacar cantidad de filas de la terminal atacante
+stty size
+
+# en victima exportar el numero de columnas
+stty rows 44 columns 184
+export TERM=xterm
+```
+{% endcode %}
+
 ## Otros Comandos no categorizados
 
 {% code overflow="wrap" %}

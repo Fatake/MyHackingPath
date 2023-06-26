@@ -70,6 +70,7 @@
   * [Cross-site scripting](web-pentesting/vulnerabilidades-comunes/cross-site-scripting.md)
   * [XXE Injection](web-pentesting/vulnerabilidades-comunes/xxe-injection.md)
   * [LFI](web-pentesting/vulnerabilidades-comunes/lfi.md)
+  * [RFI](web-pentesting/vulnerabilidades-comunes/rfi.md)
 * [Laboratorios](web-pentesting/laboratorios.md)
 
 ## ☁ AWS Pentesting
