@@ -72,8 +72,8 @@
   * [LFI](web-pentesting/vulnerabilidades-comunes/lfi/README.md)
     * [Log Poisoning](web-pentesting/vulnerabilidades-comunes/lfi/log-poisoning.md)
   * [RFI](web-pentesting/vulnerabilidades-comunes/rfi.md)
-  * [Cross-Site Request Forgery (CSRF)](web-pentesting/vulnerabilidades-comunes/cross-site-request-forgery-csrf.md)
-  * [Page 3](web-pentesting/vulnerabilidades-comunes/page-3.md)
+  * [CSRF - Cross-Site Request Forgery](web-pentesting/vulnerabilidades-comunes/csrf-cross-site-request-forgery.md)
+  * [SSRF - Server-Side Request Forgery](web-pentesting/vulnerabilidades-comunes/ssrf-server-side-request-forgery.md)
   * [To do](web-pentesting/vulnerabilidades-comunes/to-do.md)
 * [Laboratorios](web-pentesting/laboratorios.md)
 
