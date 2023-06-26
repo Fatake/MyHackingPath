@@ -69,8 +69,12 @@
   * [SQL Injection](web-pentesting/vulnerabilidades-comunes/sql-injection.md)
   * [Cross-site scripting](web-pentesting/vulnerabilidades-comunes/cross-site-scripting.md)
   * [XXE Injection](web-pentesting/vulnerabilidades-comunes/xxe-injection.md)
-  * [LFI](web-pentesting/vulnerabilidades-comunes/lfi.md)
+  * [LFI](web-pentesting/vulnerabilidades-comunes/lfi/README.md)
+    * [Log Poisoning](web-pentesting/vulnerabilidades-comunes/lfi/log-poisoning.md)
   * [RFI](web-pentesting/vulnerabilidades-comunes/rfi.md)
+  * [Cross-Site Request Forgery (CSRF)](web-pentesting/vulnerabilidades-comunes/cross-site-request-forgery-csrf.md)
+  * [Page 3](web-pentesting/vulnerabilidades-comunes/page-3.md)
+  * [To do](web-pentesting/vulnerabilidades-comunes/to-do.md)
 * [Laboratorios](web-pentesting/laboratorios.md)
 
 ## ☁ AWS Pentesting

@@ -51,6 +51,14 @@ export TERM=xterm
 ```
 {% endcode %}
 
+## Listado de procesos
+
+{% code overflow="wrap" %}
+```bash
+ps -faux
+```
+{% endcode %}
+
 ## Otros Comandos no categorizados
 
 {% code overflow="wrap" %}
