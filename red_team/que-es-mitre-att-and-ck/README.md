@@ -1,4 +1,4 @@
-# ¿Qué es ATT\&CK?
+# ¿Qué es MITRE ATT\&CK?
 
 ## ¿Qué es ATT\&CK?
 
@@ -42,41 +42,24 @@ Cada una de estas matrices está basada en la Metodología de Martin Lockhedd (2
 
 Con base a estas 7 etapas MITRE desarrolla sus Tácticas para cada matriz las cuales son:
 
-·         Reconnaissance (Enterprise, ICS): Reconocimiento (Empresa, ICS)
-
-·         Resource Development (Enterprise, ICS): Desarrollo de recursos (empresa, ICS)
-
-·         Initial Access: Acceso inicial
-
-·         Execution: Ejecución
-
-·         Persistence: Persistencia
-
-·         Privilege Escalation: Escalada de privilegios
-
-·         Defense Evasion: Evasión de la defensa
-
-·         Credential Access (Enterprise, Mobile): Acceso a credenciales (empresa, móvil)
-
-·         Discovery: Descubrimiento
-
-·         Lateral Movement: Movimiento lateral
-
-·         Collection: Recogida
-
-·         Command and Control: Mando y control
-
-·         Exfiltration (Enterprise, Mobile): Exfiltración (empresa, móvil)
-
-·         Impact : Impacto
-
-·         Network Effects (Mobile-only): Efectos en la red (sólo móvil)
-
-·         Network Service Effects (Mobile-only): Efectos del servicio de red (sólo móvil)
-
-·         Inhibit Response Function (ICS-only): Inhibir la función de respuesta (sólo ICS)
-
-·         Impair Process Control (ICS-only): Deterioro del control de procesos (sólo ICS)
+* Reconnaissance (Enterprise, ICS): Reconocimiento (Empresa, ICS)
+* Resource Development (Enterprise, ICS): Desarrollo de recursos (empresa, ICS)
+* Initial Access: Acceso inicial
+* Execution: Ejecución
+* Persistence: Persistencia
+* Privilege Escalation: Escalada de privilegios
+* Defense Evasion: Evasión de la defensa
+* Credential Access (Enterprise, Mobile): Acceso a credenciales (empresa, móvil)
+* Discovery: Descubrimiento
+* Lateral Movement: Movimiento lateral
+* Collection: Recogida
+* Command and Control: Mando y control
+* Exfiltration (Enterprise, Mobile): Exfiltración (empresa, móvil)
+* Impact : Impacto
+* Network Effects (Mobile-only): Efectos en la red (sólo móvil)
+* Network Service Effects (Mobile-only): Efectos del servicio de red (sólo móvil)
+* Inhibit Response Function (ICS-only): Inhibir la función de respuesta (sólo ICS)
+* Impair Process Control (ICS-only): Deterioro del control de procesos (sólo ICS)
 
 &#x20;
 

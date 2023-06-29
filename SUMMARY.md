@@ -74,6 +74,8 @@
   * [RFI](web-pentesting/vulnerabilidades-comunes/rfi.md)
   * [CSRF - Cross-Site Request Forgery](web-pentesting/vulnerabilidades-comunes/csrf-cross-site-request-forgery.md)
   * [SSRF - Server-Side Request Forgery](web-pentesting/vulnerabilidades-comunes/ssrf-server-side-request-forgery.md)
+  * [SSTI - Server-Side Template Injection](web-pentesting/vulnerabilidades-comunes/ssti-server-side-template-injection.md)
+  * [CSTI - Client-Side Template Injection](web-pentesting/vulnerabilidades-comunes/csti-client-side-template-injection.md)
   * [To do](web-pentesting/vulnerabilidades-comunes/to-do.md)
 * [Laboratorios](web-pentesting/laboratorios.md)
 
