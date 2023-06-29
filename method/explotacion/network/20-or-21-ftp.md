@@ -42,7 +42,7 @@ Usage: login <user|URL> [<pass>]
 lftp 10.10.10.208:~> login username Password
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Fuerza bruta de usuarios
 
