@@ -77,7 +77,7 @@
   * [SSTI - Server-Side Template Injection](web-pentesting/vulnerabilidades-comunes/ssti-server-side-template-injection.md)
   * [CSTI - Client-Side Template Injection](web-pentesting/vulnerabilidades-comunes/csti-client-side-template-injection.md)
   * [Padding Oracle Attack](web-pentesting/vulnerabilidades-comunes/padding-oracle-attack.md)
-  * [To do](web-pentesting/vulnerabilidades-comunes/to-do.md)
+  * [NoSQL Injection](web-pentesting/vulnerabilidades-comunes/nosql-injection.md)
 * [Laboratorios](web-pentesting/laboratorios.md)
 
 ## ☁ AWS Pentesting
