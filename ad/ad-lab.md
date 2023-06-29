@@ -64,7 +64,7 @@ Al finalizar la Intalación, dar click en Close
 
 Finalmente, en **Server Manager Dashboard** se encuenta un icono de bandera con un símbolo de Warning, dar click en <mark style="color:green;">**Promote this server to a domain controler**</mark>.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Seleccionar la opción <mark style="color:green;">**Add a New Forest**</mark> y escribir un nombre de dominio, para este ejemplo se usará ECORP.local y después dar click en <mark style="color:green;">**Next**</mark>
 
