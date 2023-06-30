@@ -10,6 +10,7 @@
 * [Tipos de evaluaciones](method/tipos-de-evaluaciones/README.md)
   * [El día a día en pentesting](method/tipos-de-evaluaciones/el-dia-a-dia-en-pentesting.md)
 * [Metodología general](method/metodologia-general.md)
+* [Fase 0 - Pre Evalaución](method/fase-0-pre-evalaucion.md)
 * [Fase 1 - Reconocimiento](method/recon/README.md)
   * [Web / Host](method/recon/web-host.md)
   * [SubDominios](method/recon/subdominios.md)
@@ -26,7 +27,10 @@
     * [139|445- SMB](method/explotacion/network/139-or-445-smb.md)
     * [80|443 - HTTP/HTTPS](method/explotacion/network/80-or-443-http-https.md)
 * [Fase 3 - Post Explotación](method/post-exploit.md)
-* [Toma de notas](method/toma-de-notas.md)
+* [Fase 4 - Reporting](method/fase-4-reporting/README.md)
+  * [CVSS](method/fase-4-reporting/cvss/README.md)
+    * [v4.0](method/fase-4-reporting/cvss/v4.0.md)
+  * [Toma de notas](method/fase-4-reporting/toma-de-notas.md)
 
 ## 👾 Malware
 
