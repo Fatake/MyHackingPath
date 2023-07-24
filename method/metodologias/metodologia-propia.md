@@ -1,6 +1,8 @@
-# Metodología general
+# Metodología Propia
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+Basada en todas las metodologías listadas anteriormente y con el paso del tiempo y mi experiencia en las evaluaciones de ciberseguridad como consultor de pentesting, en este apartado se describe  la metodología personal donde se recopilan algunas fases de cada metodología mencionada en este sitio web.
+
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Fase 1 - Reconocimiento
 

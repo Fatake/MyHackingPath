@@ -9,7 +9,12 @@
 
 * [Tipos de evaluaciones](method/tipos-de-evaluaciones/README.md)
   * [El día a día en pentesting](method/tipos-de-evaluaciones/el-dia-a-dia-en-pentesting.md)
-* [Metodología general](method/metodologia-general.md)
+* [Metodologías](method/metodologias/README.md)
+  * [OWASP](method/metodologias/owasp.md)
+  * [OSSTMM](method/metodologias/osstmm.md)
+  * [PTES](method/metodologias/ptes.md)
+  * [MITRE Att\&ck](method/metodologias/mitre-att-and-ck.md)
+  * [Metodología Propia](method/metodologias/metodologia-propia.md)
 * [Fase 0 - Pre Evalaución](method/fase-0-pre-evalaucion.md)
 * [Fase 1 - Reconocimiento](method/recon/README.md)
   * [Web / Host](method/recon/web-host.md)
