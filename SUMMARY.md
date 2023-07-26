@@ -162,7 +162,7 @@
 * [¿Qué es MITRE ATT\&CK?](red\_team/que-es-mitre-att-and-ck/README.md)
   * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
 
-## 💾 Active Directory <a href="#ad" id="ad"></a>
+## 💾 Active Directory <a href="#a-d" id="a-d"></a>
 
 * [¿Qué es Directorio Activo?](ad/que-es-directorio-activo.md)
 * [Componentes AD](ad/componentes-ad/README.md)
@@ -193,3 +193,4 @@
   * [Port Forward y volúmenes](extras/docker/port-forward-y-volumenes.md)
   * [Docker Compose](extras/docker/docker-compose.md)
 * [Comandos Utiles](extras/comandos-utiles.md)
+* [Páginas útiles](extras/paginas-utiles.md)
