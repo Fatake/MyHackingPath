@@ -10,7 +10,11 @@
 
 {% embed url="https://github.com/swisskyrepo/PayloadsAllTheThings" %}
 
+## Cloud
 
+{% embed url="https://cloud.hacktricks.xyz/welcome/readme" %}
+
+{% embed url="https://awscheck.netlify.app/" %}
 
 ## Red Team
 
@@ -30,7 +34,11 @@ Red Team Notes
 
 {% embed url="https://www.hackingarticles.in/active-directory-enumeration-rpcclient/" %}
 
+{% embed url="https://github.com/PowerShellMafia/PowerSploit" %}
 
+{% embed url="https://bloodhound.readthedocs.io/en/latest/index.html" %}
+
+{% embed url="https://www.infosecmatter.com/crackmapexec-module-library/" %}
 
 ## Plataformas de aprendizaje
 
@@ -120,7 +128,9 @@ Post Explotation
 
 {% embed url="https://www.revshells.com/" %}
 
-
+{% embed url="https://www.exploit-db.com/" %}
+Exploit Data Base
+{% endembed %}
 
 ## Metodologías
 
@@ -139,3 +149,7 @@ Post Explotation
 ### DeTT\&CT
 
 {% embed url="https://blog.nviso.eu/2022/03/09/dettct-mapping-detection-to-mitre-attck/" %}
+
+{% embed url="https://cwe.mitre.org/" %}
+
+{% embed url="https://cve.mitre.org/" %}
