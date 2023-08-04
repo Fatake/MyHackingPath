@@ -1,14 +1,14 @@
 # Metodología Propia
 
-Basada en todas las metodologías listadas en este sitio y con el paso del tiempo y mi experiencia en las evaluaciones de ciberseguridad como consultor de pentesting, en este apartado se describe  la metodología personal.
+Basada en todas las metodologías listadas en este sitio y con el paso del tiempo y mi experiencia en las evaluaciones de ciberseguridad como consultor de pentesting, en este apartado se describe la metodología personal.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Fase 1 - Reconocimiento
 
 ### Reconocimiento pasivo
 
-#### Footprinting&#x20;
+#### Footprinting
 
 Proceso de acumulación de información del target específico. El atacante crea un perfil en el objetivo y obtiene información útil como IP, rango de IP, namespace, nombres, usuarios, contraseñas, transferencias de DNS.
 
@@ -54,7 +54,7 @@ Al igual que la sub fase 2, esta fase también se debe revisar si no se sale del
 * [ ] Backdoors
 * [ ] Escondiendo archivos
 
-### Sub Fase  4 - Eliminación de logs
+### Sub Fase 4 - Eliminación de logs
 
 Casi nunca como un ejercicio de pentesting o red teaming se llega a esta fase, esta fase normalmente es actuar realmente como los "Malos"
 
@@ -68,7 +68,7 @@ Backdoor, persistencia
 
 La fase mas tediosa de todas, generar un reporte con todas las vulnerabilidades y clasificarlas de acuerdo a su CVSS. <mark style="color:green;">**¿Tomaste capturas de todo verdad?**</mark>
 
-Por lo general, se entrega un informe dentro de una semana después de la la finalización del proyecto. El informe debe destacar tanto los hallazgos no técnicos (ejecutivos) como los técnicos. Las recomendaciones para la remediación deben ser claras tanto para los ejecutivos como para el personal técnico. A veces se requiere el uso de una presentación ejecutiva, donde sean presentaciones de diapositivas para explicar de forma resumida los hallazgos, el donde está la empresa auditada y como solucionar los problemas, estas diapositivas deben estar enfocadas para personas no tan técnicas.&#x20;
+Por lo general, se entrega un informe dentro de una semana después de la la finalización del proyecto. El informe debe destacar tanto los hallazgos no técnicos (ejecutivos) como los técnicos. Las recomendaciones para la remediación deben ser claras tanto para los ejecutivos como para el personal técnico. A veces se requiere el uso de una presentación ejecutiva, donde sean presentaciones de diapositivas para explicar de forma resumida los hallazgos, el donde está la empresa auditada y como solucionar los problemas, estas diapositivas deben estar enfocadas para personas no tan técnicas.
 
 ### Debrief
 

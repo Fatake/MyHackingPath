@@ -13,6 +13,8 @@
   * [OWASP](method/metodologia-propia/owasp.md)
   * [OSSTMM](method/metodologia-propia/osstmm.md)
   * [PTES](method/metodologia-propia/ptes.md)
+  * [CEH Hacking Metodology (CHM)](method/metodologia-propia/ceh-hacking-metodology-chm.md)
+  * [Cyber Kill Chain](method/metodologia-propia/cyber-kill-chain.md)
   * [MITRE Att\&ck](method/metodologia-propia/mitre-att-and-ck.md)
 * [Fase 0 - Pre Evalaución](method/fase-0-pre-evalaucion.md)
 * [Fase 1 - Reconocimiento](method/recon/README.md)
