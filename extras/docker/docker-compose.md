@@ -4,9 +4,7 @@
 
 Docker Compose es una herramienta de orquestación de contenedores que permite definir y ejecutar aplicaciones multi-contenedor de manera fácil y eficiente. Con Docker Compose, podemos describir los diferentes servicios que componen nuestra aplicación en un **archivo YAML** y, a continuación, utilizar un solo comando para ejecutar y gestionar todos estos servicios de manera coordinada.
 
-Además permite definir  múltiples contenedores en un solo archivo pudiendo incluso crear subredes de comunicación entre los mismos
-
-
+Además permite definir múltiples contenedores en un solo archivo pudiendo incluso crear subredes de comunicación entre los mismos
 
 {% code title="docker-compose.yml" overflow="wrap" %}
 ```yaml
@@ -36,7 +34,6 @@ services:
       - ./config.env
     volumes:
       - ./_data/config/nginx/:/etc/nginx/sites
-      - ./_data/config/vhosts/:/etc/nginx/vhosts
       - ./_data/config/html:/var/www/html
     secrets:
       - source: public_cert
@@ -72,14 +69,9 @@ Ejecución
 
 ```bash
 # solo build
-docker-compose build
-docker-compose up -d
+docker compose build
+docker compose up -d
 
 # Buldear y poner activo 
-docker-compose -f ./docker-compose.yml up --build
+docker compose -f ./docker-compose.yml up --build
 ```
-
-
-
-
-
