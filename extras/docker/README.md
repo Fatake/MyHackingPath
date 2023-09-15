@@ -2,7 +2,7 @@
 
 ## ¿Qúe es docker?
 
-Docker es una plataforma de software que le permite crear, probar e implementar aplicaciones rápidamente. Docker empaqueta software en unidades estandarizadas llamadas [contenedores](https://hub.docker.com/search?q=\&type=image) que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, herramientas de sistema, código y tiempo de ejecución. Con Docker, puede implementar y ajustar la escala de aplicaciones rápidamente en cualquier entorno con la certeza de saber que su código se ejecutará.\\
+Docker es una plataforma de software que le permite crear, probar e implementar aplicaciones rápidamente. Docker empaqueta software en unidades estandarizadas llamadas [<mark style="color:green;">**contenedores**</mark>](https://hub.docker.com/search?q=\&type=image) que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, herramientas de sistema, código y tiempo de ejecución. Con Docker, puede implementar y ajustar la escala de aplicaciones rápidamente en cualquier entorno con la certeza de saber que su código se ejecutará.
 
 <figure><img src="../../.gitbook/assets/image (7) (6).png" alt=""><figcaption><p>how docker works</p></figcaption></figure>
 
@@ -14,8 +14,10 @@ Algunas de las secciones más comunes en un archivo Dockerfile son:
 
 * **FROM**: se utiliza para especificar la imagen base desde la cual se construirá la nueva imagen.
 * **RUN**: se utiliza para ejecutar comandos en el interior del contenedor, como la instalación de paquetes o la configuración del entorno.
-* **COPY**: se utiliza para copiar archivos desde el sistema host al interior del contenedor.
+* **COPY/ADD**: se utiliza para copiar archivos desde el sistema host al interior del contenedor.
 * **CMD**: se utiliza para especificar el comando que se ejecutará cuando se arranque el contenedor.
+
+
 
 Además de estas secciones, también se pueden incluir otras instrucciones para configurar el entorno, instalar paquetes adicionales, exponer puertos de red y más.
 
@@ -36,7 +38,9 @@ ENTRYPOINT Comando de inicio && /bin/bash
 
 Para crear una imagen de Docker, es necesario tener un archivo **Dockerfile** que defina la configuración de la imagen. Una vez que se tiene el Dockerfile, se puede utilizar el comando “**docker build**” para construir la imagen. Este comando buscará el archivo ‘Dockerfile’ en el directorio actual y utilizará las instrucciones definidas en el mismo para construir la imagen.
 
-## Comandos
+{% embed url="https://docs.docker.com/engine/reference/builder/" %}
+
+## Comandos más usados
 
 ### docker build
 

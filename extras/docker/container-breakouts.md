@@ -19,6 +19,36 @@ Por defecto, los contenedores Docker se ejecutan con capacidades limitadas. Por 
 
 
 
+### Herramientas de seguridad de Docker&#x20;
+
+Docker cuenta con una rica comunidad de desarrolladores, administradores de sistemas y profesionales de la seguridad. Esta comunidad promueve el uso de Docker compartiendo e intercambiando conocimientos y creando herramientas para realizar diferentes tareas. Hay herramientas que ayudan a simplificar la gestión de entornos Docker y herramientas que ayudan a mantener el entorno seguro.
+
+
+
+#### Tools:
+
+Portainer
+
+{% embed url="https://www.portainer.io/" %}
+
+Escaneado de imágenes con Clair
+
+{% embed url="https://coreos.com/clair/docs/latest/" %}
+
+Docker Bench Security&#x20;
+
+{% embed url="https://github.com/docker/docker-bench-security" %}
+
+Seguridad Docker&#x20;
+
+{% embed url="https://github.com/collabnix/dockerlabs/blob/master/advanced/security/ByPassing-Linux-Security-Audit.md" %}
+
+Inmersión en Docker
+
+{% embed url="https://blog.pentesteracademy.com/learn-to-analyze-docker-image-with-dive-tool-4cdee4aeef6b" %}
+
+
+
 ### Referencias
 
 Vulnerabilidad de fuga de contenedor RunC&#x20;
