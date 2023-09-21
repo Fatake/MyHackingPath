@@ -76,6 +76,7 @@
   * [Fuzzing](web-pentesting/footprinting/fuzzing.md)
   * [Validación de los certificados](web-pentesting/footprinting/validacion-de-los-certificados.md)
 * [Vulnerabilidades comunes](web-pentesting/vulnerabilidades-comunes/README.md)
+  * [File Upload](web-pentesting/vulnerabilidades-comunes/file-upload.md)
   * [SQL Injection](web-pentesting/vulnerabilidades-comunes/sql-injection.md)
   * [Cross-site scripting](web-pentesting/vulnerabilidades-comunes/cross-site-scripting.md)
   * [XXE Injection](web-pentesting/vulnerabilidades-comunes/xxe-injection.md)
