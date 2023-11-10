@@ -20,42 +20,44 @@ Varios agentes trabajan juntos para proporcionar autenticación en Kerberos. Est
 
 #### **Encryption keys**
 
-There are several structures handled by Kerberos, as tickets. Many of those structures are encrypted or signed in order to prevent being tampered by third parties. These keys are the following:
+Varias estructuras manejadas por Kerberos, como los tickets, se transmiten cifradas o firmadas. Esto evita que sean manipuladas por terceros. Las claves de cifrado utilizados por Kerberos, en Active Directory, son las siguientes:
 
-* **KDC or krbtgt key** which is derivate from krbtgt account NTLM hash.
-* **User key** which is derivate from user NTLM hash.
-* **Service key** which is derivate from the NTLM hash of service owner, which can be a user or computer account.
-* **Session key** which is negotiated between the user and KDC.
-* **Service session key** to be use between user and service.
+* **Clave del KDC o krbtgt**: clave derivada del hash NTLM de la cuenta [krbtgt](https://www.tarlogic.com/es/glosario-ciberseguridad/krbtgt/).
+* **Clave de usuario**: clave derivada del hash NTLM del propio usuario.
+* **Clave de servicio**: clave derivada del hash NTLM del propietario del servicio, que puede ser una cuenta de usuario o del servidor.
+* **Clave de sesión**: clave negociada por el cliente y el KDC.
+* **Clave de sesión de servicio**: clave negociada para utilizar entre el cliente y el AP.
 
 #### **Tickets**
 
-The main structures handled by Kerberos are the tickets. These tickets are delivered to the users in order to be used by them to perform several actions in the Kerberos realm. There are 2 types:
+Kerberos maneja unas estructuras llamadas “Tickets”, que son entregados a los usuarios autenticados para que estos puedan realizar ciertas acciones dentro del dominio de Kerberos. Se distinguen 2 tipos:
 
-* The **TGS** (Ticket Granting Service) is the ticket which user can use to authenticate against a service. It is encrypted with the service key.
-* The **TGT** (Ticket Granting Ticket) is the ticket presented to the KDC to request for TGSs. It is encrypted with the KDC key.
+* El **TGS** (Ticket Granting Service) es el ticket que se presenta ante un servicio para poder acceder a sus recursos. Se cifra con la clave del servicio correspondiente.
+* El **TGT** (Ticket Granting Ticket) es el ticket que se presenta ante el KDC para obtener los TGS. Se cifra con la clave del KDC.
 
 #### **PAC**
 
-The **PAC** (Privilege Attribute Certificate) is a structure included in almost every ticket. This structure contains the privileges of the user and it is signed with the KDC key.
+El **PAC** (Privilege Attribute Certificate) es una estructura incluida en la mayoría los tickets. Esta estructura contiene los privilegios del usuario y está firmada con la clave del KDC.
 
-It is possible to services to verify the PAC by communicating with the KDC, although this does not happen often. Nevertheless, the PAC verification consists of checking only its signature, without inspecting if privileges inside of PAC are correct.
+Es posible para los servicios verificar el PAC comunicándose con el KDC, aunque esto no es común. No obstante, la verificación del PAC solo consiste en comprobar su firma, sin comprobar si los privilegios son correctos.
 
-Furthermore, a client can avoid the inclusion of the PAC inside the ticket by specifying it in _KERB-PA-PAC-REQUEST_ field of ticket request.
+Por otra parte, un cliente puede evitar que se incluya el PAC especificándolo en el campo KERB-PA-PAC-REQUEST de la petición del ticket.
 
-#### **Messages**
+#### **Mensajes**
 
-Kerberos uses differents kinds of messages. The most interesting are the following:
+El protocolo Kerberos permite la comunicación de los diferentes agentes a través de diferentes tipos de mensajes. A continuación se enumeran los más interesantes:
 
-* **KRB\_AS\_REQ**: Used to request the TGT to KDC.
-* **KRB\_AS\_REP**: Used to deliver the TGT by KDC.
-* **KRB\_TGS\_REQ**: Used to request the TGS to KDC, using the TGT.
-* **KRB\_TGS\_REP**: Used to deliver the TGS by KDC.
-* **KRB\_AP\_REQ**: Used to authenticate a user against a service, using the TGS.
-* **KRB\_AP\_REP**: (Optional) Used by service to identify itself against the user.
-* **KRB\_ERROR**: Message to communicate error conditions.
+* **KRB\_AS\_REQ**: Utilizado por el usuario para solicitar el TGT al KDC.
+* **KRB\_AS\_REP**: Respuesta del KDC para enviar el TGT al usuario.
+* **KRB\_TGS\_REQ**: Utilizado por el usuario para solicitar el TGS al KDC, utilizando el TGT.
+* **KRB\_TGS\_REP**: Respuesta del KDC para enviar el TGS solicitado al usuario.
+* **KRB\_AP\_REQ**: Utilizado por el usuario para identificarse contra el servicio deseado, utilizando el TGS del propio servicio.
+* **KRB\_AP\_REP**: (Opcional) Utilizado por el servicio para autenticarse frente al usuario.
+* **KRB\_ERROR**: Utilizado por los diferentes agentes para notificar situaciones de error.
 
-Additionally, even if it is not part of Kerberos, but NRPC, the AP optionally could use the **KERB\_VERIFY\_PAC\_REQUEST** message to send to KDC the signature of PAC, and verify if it is correct.
+Además, aunque no es parte de Kerberos, sino de NRPC, el AP puede opcionalmente utilizar el mensaje **KERB\_VERIFY\_PAC\_REQUEST** para enviar la firma del PAC al KDC, y verificar si ésta es correcta.
+
+{% embed url="https://www.tarlogic.com/es/blog/como-funciona-kerberos/" %}
 
 
 

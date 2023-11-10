@@ -171,8 +171,10 @@
   * [Componentes Físicos](a-d/que-es-directorio-activo/fisicos.md)
   * [Componentes Lógicos](a-d/que-es-directorio-activo/logicos.md)
   * [Kerberos](a-d/que-es-directorio-activo/kerberos.md)
-* [Pentesting AD](a-d/pentesting-ad/README.md)
-  * [AD Lab](a-d/pentesting-ad/ad-lab.md)
+* [Ataques en AD](a-d/ataques-en-ad/README.md)
+  * [LLMNR Poisoning](a-d/ataques-en-ad/llmnr-poisoning.md)
+  * [Attack Kerberos](a-d/ataques-en-ad/attack-kerberos.md)
+* [AD Lab](a-d/ad-lab.md)
 
 ## 📱 Mobile Pentesting <a href="#mob-pentest" id="mob-pentest"></a>
 
