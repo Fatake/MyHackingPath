@@ -172,6 +172,7 @@
   * [Físicos](ad/componentes-ad/fisicos.md)
   * [Lógicos](ad/componentes-ad/logicos.md)
 * [AD Lab](ad/ad-lab.md)
+* [Pentesting AD](a-d/pentesting-ad.md)
 
 ## 📱 Mobile Pentesting <a href="#mob-pentest" id="mob-pentest"></a>
 
