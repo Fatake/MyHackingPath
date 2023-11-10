@@ -2,11 +2,13 @@
 description: What Is Active Directory
 ---
 
-# ¿Qué es Directorio Activo?
+# Teoria
+
+## ¿Qué es Directorio Activo?
 
 <mark style="color:green;">**Active Directory (AD)**</mark> es un servicio de directorio desarrollado por Microsoft que se utiliza para administrar y organizar los recursos de red en un entorno empresarial. Es una parte integral del sistema operativo Windows Server y se implementa principalmente en entornos de red de Microsoft.
 
-<figure><img src="../.gitbook/assets/image (41) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Active Directory actúa como un servicio de directorio centralizado que almacena información sobre objetos en una red, como usuarios, grupos, equipos y recursos compartidos. Proporciona un mecanismo para autenticar y autorizar el acceso a estos objetos, lo que permite a los administradores de red controlar y gestionar de manera eficiente los recursos de red.
 
@@ -19,15 +21,8 @@ Algunas de las características y funcionalidades principales de Active Director
 4. <mark style="color:green;">**Servicios de directorio distribuido**</mark>: Active Directory replica y sincroniza automáticamente los datos del directorio en múltiples controladores de dominio para garantizar la disponibilidad y la redundancia.
 5. <mark style="color:green;">**Acceso a recursos compartidos**</mark>: Los usuarios pueden acceder a recursos compartidos, como impresoras, archivos y carpetas, de forma segura y controlada.
 
-
-
 Active Directory es el servicio de gestión de identidades más utilizado en el mundo. El 95% de las empresas de la lista Fortune 1000 utilizan este servicio en sus redes.
 
 {% embed url="https://techcommunity.microsoft.com/t5/security-compliance-and-identity/success-with-enterprise-mobility-identity/ba-p/248613" %}
 
 Puede ser explotado sin necesidad de atacar exploits parcheables. En su lugar, se suele abusar de características, configuraciones de confianzas, componentes y más
-
-
-
-
-

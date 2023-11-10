@@ -1,4 +1,4 @@
-# Lógicos
+# Componentes Lógicos
 
 ## AD DS Schema
 
@@ -14,7 +14,7 @@ El esquema de AD DS es una entidad única y está presente en todos los Controla
 
 ## Domains
 
-Los AD Domains son <mark style="color:green;">unidades lógicas de organización</mark> dentro de la infraestructura de Active Directory. Un dominio es una <mark style="color:green;">agrupación de objetos relacionados</mark>, como usuarios, grupos, equipos y recursos, que comparten una base de datos centralizada y un conjunto común de políticas de seguridad y administración.
+Los AD Domains son <mark style="color:green;">**unidades lógicas de organización**</mark> dentro de la infraestructura de Active Directory. Un dominio es una <mark style="color:green;">**agrupación de objetos relacionados**</mark>, como usuarios, grupos, equipos y recursos, que comparten una base de datos centralizada y un conjunto común de políticas de seguridad y administración.
 
 <figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +38,7 @@ Un AD Forest es una estructura de alto nivel en Active Directory que consiste en
 
 <figure><img src="../../.gitbook/assets/image (7) (4).png" alt=""><figcaption></figcaption></figure>
 
-Un bosque de Active Directory se forma cuando varios árboles de dominio se conectan mediante relaciones de confianza. Cada árbol de dominio en el bosque es independiente y tiene su propio espacio de nombres de dominio único, pero comparten una estructura común y una base de datos de Active Directory.&#x20;
+Un bosque de Active Directory se forma cuando varios árboles de dominio se conectan mediante relaciones de confianza. Cada árbol de dominio en el bosque es independiente y tiene su propio espacio de nombres de dominio único, pero comparten una estructura común y una base de datos de Active Directory.
 
 ## Organizational Units (OUs)
 

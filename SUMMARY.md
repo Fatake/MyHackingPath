@@ -167,12 +167,12 @@
 
 ## 💾 Active Directory <a href="#a-d" id="a-d"></a>
 
-* [¿Qué es Directorio Activo?](ad/que-es-directorio-activo.md)
-* [Componentes AD](ad/componentes-ad/README.md)
-  * [Físicos](ad/componentes-ad/fisicos.md)
-  * [Lógicos](ad/componentes-ad/logicos.md)
-* [AD Lab](ad/ad-lab.md)
-* [Pentesting AD](a-d/pentesting-ad.md)
+* [Teoria](a-d/que-es-directorio-activo/README.md)
+  * [Componentes Físicos](a-d/que-es-directorio-activo/fisicos.md)
+  * [Componentes Lógicos](a-d/que-es-directorio-activo/logicos.md)
+  * [Kerberos](a-d/que-es-directorio-activo/kerberos.md)
+* [Pentesting AD](a-d/pentesting-ad/README.md)
+  * [AD Lab](a-d/pentesting-ad/ad-lab.md)
 
 ## 📱 Mobile Pentesting <a href="#mob-pentest" id="mob-pentest"></a>
 
