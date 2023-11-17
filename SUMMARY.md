@@ -164,6 +164,8 @@
 * [Introducción a Red Team](red\_team/introduccion-a-red-team.md)
 * [¿Qué es MITRE ATT\&CK?](red\_team/que-es-mitre-att-and-ck/README.md)
   * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
+* [C2 Comando y control](red\_team/c2-comando-y-control.md)
+* [Sliver C2](red\_team/sliver-c2.md)
 
 ## 💾 Active Directory <a href="#a-d" id="a-d"></a>
 
