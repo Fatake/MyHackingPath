@@ -6,8 +6,8 @@ En estas entradas del blog se describirán el uso y utilidades del framework de 
 
 Se recomienda la lectura de C2 Comando y Control en las entradas de este blog:
 
-{% content-ref url="c2-comando-y-control.md" %}
-[c2-comando-y-control.md](c2-comando-y-control.md)
+{% content-ref url="../c2-comando-y-control.md" %}
+[c2-comando-y-control.md](../c2-comando-y-control.md)
 {% endcontent-ref %}
 
 ## ¿Qué es Sliver?

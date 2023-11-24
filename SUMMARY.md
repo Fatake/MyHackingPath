@@ -168,7 +168,19 @@
 * [¿Qué es MITRE ATT\&CK?](red\_team/que-es-mitre-att-and-ck/README.md)
   * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
 * [C2 Comando y control](red\_team/c2-comando-y-control.md)
-* [Sliver C2](red\_team/sliver-c2.md)
+* [Sliver C2](red\_team/sliver-c2/README.md)
+  * [Instalación](red\_team/sliver-c2/instalacion.md)
+  * [Beacons y Sessiones](red\_team/sliver-c2/beacons-y-sessiones.md)
+  * [mTLS y WiewGuard](red\_team/sliver-c2/mtls-y-wiewguard.md)
+  * [HTTP / HTTPS](red\_team/sliver-c2/http-https.md)
+  * [DNS](red\_team/sliver-c2/dns.md)
+  * [Stagers: Basics](red\_team/sliver-c2/stagers-basics.md)
+  * [Stagers: Proccess Injection](red\_team/sliver-c2/stagers-proccess-injection.md)
+  * [Basics de Implates](red\_team/sliver-c2/basics-de-implates.md)
+  * [Ejecución de Assembly](red\_team/sliver-c2/ejecucion-de-assembly.md)
+  * [Sideload](red\_team/sliver-c2/sideload.md)
+  * [SpawnDLL](red\_team/sliver-c2/spawndll.md)
+  * [Sliver Extensions](red\_team/sliver-c2/sliver-extensions.md)
 
 ## 💾 Active Directory <a href="#a-d" id="a-d"></a>
 
