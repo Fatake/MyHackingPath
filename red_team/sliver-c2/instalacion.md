@@ -74,7 +74,7 @@ sliver-server unpack --force
 ```
 {% endcode %}
 
-Finalmente, yo recomiendo la creación de un servicio en systemd para sliver server.
+Finalmente, recomiendo la creación de un servicio en systemd para sliver server.
 
 {% code overflow="wrap" %}
 ```bash
@@ -101,7 +101,7 @@ WantedBy=multi-user.target
 ```
 {% endcode %}
 
-Este archivo permite iniciar el servicio `systemctl start sliver` el cual inicia sliver-server en modio demonio con escucha en el puerto 31337 para la conexión a los operadores.&#x20;
+Este archivo permite iniciar el servicio `systemctl start sliver` el cual inicia sliver-server en modo demonio con escucha en el puerto 31337 para la conexión a los operadores.&#x20;
 
 {% code overflow="wrap" %}
 ```
@@ -111,7 +111,7 @@ tcp6    0   0 :::31337    :::*    LISTEN    4706/sliver-server   off (0.00/0/0)
 ```
 {% endcode %}
 
-### Creacción Operadores
+### Creación Operadores
 
 Los operadores se autentican en el servidor mediante TLS mutuo (mTLS). Los certificados de cliente pueden ser emitidos por el servidor utilizando el comando `operador`. A continuación, se creará un nuevo operador llamado `hacker1`, que se conecta al servidor directamente desde localhost:
 
@@ -121,7 +121,7 @@ sudo sliver-server operator --name kali --lhost localhost --save /tmp
 ```
 {% endcode %}
 
-Esto creará un archivo de configuración json con los certificados necesarios para la conección:
+Esto creará un archivo de configuración json con los certificados necesarios para la conexión:
 
 {% code overflow="wrap" %}
 ```bash
