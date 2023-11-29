@@ -31,7 +31,7 @@ Active Directory (AD) es una base de datos y un conjunto de servicios que conect
 8. <mark style="color:green;">**Visor de Eventos**</mark> **- `eventvwr.msc`**
    * **Acceso:** Escribe `eventvwr.msc` en el comando "Ejecutar".
    * **Función:** Permite a los administradores ver eventos y registros de seguridad, lo cual es esencial para el monitoreo del rendimiento y la seguridad del AD.
-9. **Administrador de DHCP** **- `dhcpmgmt.msc`**
+9. <mark style="color:green;">**Administrador de DHCP**</mark>** - `dhcpmgmt.msc`**
    * **Acceso:** Escribe `dhcpmgmt.msc` en el comando "Ejecutar".
    * **Función:** Administra el protocolo de configuración dinámica de host (DHCP) que asigna direcciones IP a dispositivos en la red.
 10. <mark style="color:green;">**Administrador de Certificados**</mark>** - `certmgr.msc`**
