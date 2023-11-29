@@ -164,7 +164,8 @@
 
 ## 🔫 Red\_Team
 
-* [Introducción a Red Team](red\_team/introduccion-a-red-team.md)
+* [Introducción a Red Team](red\_team/introduccion-a-red-team/README.md)
+  * [Assume breach](red\_team/introduccion-a-red-team/assume-breach.md)
 * [¿Qué es MITRE ATT\&CK?](red\_team/que-es-mitre-att-and-ck/README.md)
   * [Guia de uso de Invoke-AtomicRedTeam](red\_team/que-es-att-and-ck/guia-de-uso-de-invoke-atomicredteam.md)
 * [C2 Comando y control](red\_team/c2-comando-y-control.md)
@@ -188,7 +189,10 @@
 * [Teoria](a-d/que-es-directorio-activo/README.md)
   * [Componentes Físicos](a-d/que-es-directorio-activo/fisicos.md)
   * [Componentes Lógicos](a-d/que-es-directorio-activo/logicos.md)
-  * [Kerberos](a-d/que-es-directorio-activo/kerberos.md)
+  * [GPO VS ACL](a-d/que-es-directorio-activo/gpo-vs-acl.md)
+  * [Kerberos](a-d/que-es-directorio-activo/kerberos/README.md)
+    * [Funcionamiento de Kerberos](a-d/que-es-directorio-activo/kerberos/funcionamiento-de-kerberos.md)
+  * [Usuarios por defecto](a-d/que-es-directorio-activo/usuarios-por-defecto.md)
 * [Ataques en AD](a-d/ataques-en-ad/README.md)
   * [LLMNR Poisoning](a-d/ataques-en-ad/llmnr-poisoning.md)
   * [Attack Kerberos](a-d/ataques-en-ad/attack-kerberos.md)
