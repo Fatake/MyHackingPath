@@ -152,16 +152,6 @@
 * [Notas](aws-pentesting/notas/README.md)
   * [Terraform](aws-pentesting/notas/terraform.md)
 
-## 🌩 Azure Coud Pentesting <a href="#azure-pentest" id="azure-pentest"></a>
-
-* [Introducción a Azure y Office 365](azure-pentest/introduccion-a-azure-y-office-365.md)
-* [Introducción a Microsoft Indentity Services](azure-pentest/introduccion-a-microsoft-indentity-services.md)
-* [Enumeración](azure-pentest/enumeracion.md)
-* [Azure Files](azure-pentest/azure-files/README.md)
-  * [Encontrar Fuga de Datos](azure-pentest/azure-files/encontrar-fuga-de-datos.md)
-* [Microsoft Graph](azure-pentest/microsoft-graph.md)
-* [Notas](azure-pentest/notas.md)
-
 ## 🔫 Red\_Team
 
 * [Introducción a Red Team](red\_team/introduccion-a-red-team/README.md)
@@ -193,10 +183,22 @@
   * [Kerberos](a-d/que-es-directorio-activo/kerberos/README.md)
     * [Funcionamiento de Kerberos](a-d/que-es-directorio-activo/kerberos/funcionamiento-de-kerberos.md)
   * [Usuarios por defecto](a-d/que-es-directorio-activo/usuarios-por-defecto.md)
+* [Enumeraciones Externas](a-d/enumeraciones-externas/README.md)
+  * [¿Por qué enumerar?](a-d/enumeraciones-externas/por-que-enumerar.md)
 * [Ataques en AD](a-d/ataques-en-ad/README.md)
   * [LLMNR Poisoning](a-d/ataques-en-ad/llmnr-poisoning.md)
   * [Attack Kerberos](a-d/ataques-en-ad/attack-kerberos.md)
 * [AD Lab](a-d/ad-lab.md)
+
+## 🌩 Azure Coud Pentesting <a href="#azure-pentest" id="azure-pentest"></a>
+
+* [Introducción a Azure y Office 365](azure-pentest/introduccion-a-azure-y-office-365.md)
+* [Introducción a Microsoft Indentity Services](azure-pentest/introduccion-a-microsoft-indentity-services.md)
+* [Enumeración](azure-pentest/enumeracion.md)
+* [Azure Files](azure-pentest/azure-files/README.md)
+  * [Encontrar Fuga de Datos](azure-pentest/azure-files/encontrar-fuga-de-datos.md)
+* [Microsoft Graph](azure-pentest/microsoft-graph.md)
+* [Notas](azure-pentest/notas.md)
 
 ## 📱 Mobile Pentesting <a href="#mob-pentest" id="mob-pentest"></a>
 
@@ -222,4 +224,5 @@
   * [Docker Compose](extras/docker/docker-compose.md)
   * [Container Breakouts](extras/docker/container-breakouts.md)
 * [Comandos Utiles](extras/comandos-utiles.md)
+* [Fliper Zero](extras/fliper-zero.md)
 * [Páginas útiles](extras/paginas-utiles.md)
