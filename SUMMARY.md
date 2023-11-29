@@ -174,23 +174,23 @@
     * [SpawnDLL](red\_team/c2-comando-y-control/sliver-c2/spawndll.md)
     * [Sliver Extensions](red\_team/c2-comando-y-control/sliver-c2/sliver-extensions.md)
 
-## 💾 Active Directory <a href="#a-d" id="a-d"></a>
+## 💾 Active Directory
 
-* [Teoria](a-d/que-es-directorio-activo/README.md)
-  * [Componentes Físicos](a-d/que-es-directorio-activo/fisicos.md)
-  * [Componentes Lógicos](a-d/que-es-directorio-activo/logicos.md)
-  * [GPO VS ACL](a-d/que-es-directorio-activo/gpo-vs-acl.md)
-  * [Kerberos](a-d/que-es-directorio-activo/kerberos/README.md)
-    * [Funcionamiento de Kerberos](a-d/que-es-directorio-activo/kerberos/funcionamiento-de-kerberos.md)
-  * [Usuarios por defecto](a-d/que-es-directorio-activo/usuarios-por-defecto.md)
-* [Enumeraciones](a-d/enumeraciones/README.md)
-  * [¿Por qué enumerar?](a-d/enumeraciones/por-que-enumerar.md)
-  * [Enumeración manual](a-d/enumeraciones/enumeracion-manual.md)
-  * [Enumeración con PowerView](a-d/enumeraciones/enumeracion-con-powerview.md)
-* [Ataques en AD](a-d/ataques-en-ad/README.md)
-  * [LLMNR Poisoning](a-d/ataques-en-ad/llmnr-poisoning.md)
-  * [Attack Kerberos](a-d/ataques-en-ad/attack-kerberos.md)
-* [AD Lab](a-d/ad-lab.md)
+* [Teoria](active-directory/que-es-directorio-activo/README.md)
+  * [Componentes Físicos](active-directory/que-es-directorio-activo/fisicos.md)
+  * [Componentes Lógicos](active-directory/que-es-directorio-activo/logicos.md)
+  * [GPO VS ACL](active-directory/que-es-directorio-activo/gpo-vs-acl.md)
+  * [Kerberos](active-directory/que-es-directorio-activo/kerberos/README.md)
+    * [Funcionamiento de Kerberos](active-directory/que-es-directorio-activo/kerberos/funcionamiento-de-kerberos.md)
+  * [Usuarios por defecto](active-directory/que-es-directorio-activo/usuarios-por-defecto.md)
+* [Enumeraciones](active-directory/enumeraciones/README.md)
+  * [¿Por qué enumerar?](active-directory/enumeraciones/por-que-enumerar.md)
+  * [Enumeración manual](active-directory/enumeraciones/enumeracion-manual.md)
+  * [Enumeración con PowerView](active-directory/enumeraciones/enumeracion-con-powerview.md)
+* [Ataques en AD](active-directory/ataques-en-ad/README.md)
+  * [LLMNR Poisoning](active-directory/ataques-en-ad/llmnr-poisoning.md)
+  * [Attack Kerberos](active-directory/ataques-en-ad/attack-kerberos.md)
+* [AD Lab](active-directory/ad-lab.md)
 
 ## 🌩 Azure Coud Pentesting <a href="#azure-pentest" id="azure-pentest"></a>
 
