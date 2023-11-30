@@ -59,5 +59,5 @@ Además, aunque no es parte de Kerberos, sino de NRPC, el AP puede opcionalmente
 
 {% embed url="https://www.tarlogic.com/es/blog/como-funciona-kerberos/" %}
 
-
+{% embed url="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/kerberos-authentication" %}
 
