@@ -1,8 +1,6 @@
 # Guia de uso de Invoke-AtomicRedTeam
 
-## Instalación
-
-
+## <mark style="color:green;">Instalación</mark>
 
 **Nota**: Requiere powershell 5.0 en adelante
 
@@ -34,14 +32,10 @@ IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/mas
 
 ### Por si se quiere cambiar la Ubicación por defecto
 
-Por defecto se instala en la carpeta: **C:\AtomicRedTeam\atomics**&#x20;
+Por defecto se instala en la carpeta: **C:\AtomicRedTeam\atomics**
 
 ```powershell
 Install-AtomicRedTeam -InstallPath "c:\tools"
-```
-
-```powershell
-Install-AtomicsFolder -InstallPath "c:\tools"
 ```
 
 ### Instalación Ofline
@@ -54,7 +48,7 @@ Tener también la carpeta C:\AtomicRedTeam\atomics ya creada
 Import-Module .\install-atomicredteam.ps1 ;
 ```
 
-### En caso de no poder ejecutar scripts en la máquina
+### ExecutionPolicy Bypass
 
 Por si se tienen la ejecución de scripts deshabilitada, primero ejecutar
 
@@ -70,52 +64,94 @@ powershell -exec bypass
 powershell -Version 2 -nop -exec bypass
 ```
 
-
-
-
-
 // Para Cambiar la ubicación de los atomics $PSDefaultParameterValues = @{"Invoke-AtomicTest:PathToAtomicsFolder"="C:\Users\myuser\Documents\code\atomic-red-team\atomics"}
 
-## Ejecución de Atomics
+## <mark style="color:green;">Ejecución de Atomics</mark>
 
-Muestra sin ejecutar el atomic los comandos que se utilizarán en ese atomic Información completa
+### Solo mostrar información&#x20;
 
-```
+Muestra información con formato verbolse
+
+```powershell
 Invoke-AtomicTest T1089 -ShowDetails
 ```
 
-// Muesta solo los nombres y numero de test que tiene el atomic sin ejecutarlos Invoke-AtomicTest T108 -ShowDetailsBrief
+### Ejecución de comandos
 
-// Ejecuta la TTP sin comandos de limpieza&#x20;
+Ejecuta la TTP sin comandos de limpieza
 
+```powershell
 Invoke-AtomicTest T1089
+```
 
-// Ejecuta la TTP con mas información en las salidas&#x20;
+Para ejecutar solo los Test específicos
 
-Invoke-AtomicTest T1089 -Interactive
+```powershell
+Invoke-AtomicTest T1089 -TestNumbers 1,2
+```
 
-// Para ejecutar solo los Test específicos
+Otra firma de ejecutar solo los Test que se quieren
 
-&#x20;Invoke-AtomicTest T1089 -TestNumbers 1,2
-
-// Otra foprma de ejecutar solo los Test que se quieren&#x20;
-
+```powershell
 Invoke-AtomicTest T1089-1,2
+```
 
-// Ejecuta los comandos de limpieza de la TTP ( No ejecuta la TTP)&#x20;
+Ejecuta los comandos de limpieza de la TTP ( No ejecuta la TTP)
 
+```powershell
 Invoke-AtomicTest T1089 -Cleanup
+```
 
 ## Logger
 
-Por defecto Invoke-AtomicTest guarda todos las ttps usadas en ($env:TEMP, %tmp%, or \tmp) // Para que no se guarden se puede utilizar&#x20;
+Por defecto Invoke-AtomicTest guarda todos las ttps usadas en ($env:TEMP, %tmp%, or \tmp) // Para que no se guarden se puede utilizar
 
+```powershell
 Invoke-AtomicTest T1089 -NoExecutionLog
+```
 
-// Guarda en registro (sin salidas de comando) a un fichero csv&#x20;
+Guarda en registro (sin salidas de comando) a un fichero csv
 
+```powershell
 Invoke-AtomicTest T1089 -ExecutionLogPath 'C:\Temp\mylog.csv'
+```
 
-// Redirección de la salida para guardar el registro&#x20;
+### Logger con mas información
 
-Invoke-AtomicTest T1089 \*>&1 | Tee-Object atomic-out.txt -Append
+{% code overflow="wrap" %}
+```powershell
+Invoke-AtomicTest T1016 -LoggingModule "Attire-ExecutionLogger" -ExecutionLogPath T1016-Windows.json
+```
+{% endcode %}
+
+Genera un json e importas en la herramienta VECTR para verlo gráficamente
+
+{% embed url="https://github.com/SecurityRiskAdvisors/VECTR" %}
+
+## Auto Tool
+
+Descargas la herramienta y luego ejecutas
+
+### Auto Install
+
+```
+.\AutoAtomic.ps1 -i -p
+```
+
+### Auto atomic
+
+```
+.\AutoAtomic.ps1 -TestFile ttps.txt
+```
+
+Requiere de un archivo ttps.txt donde se especifique cuales atomics se van a ejecutar, por ejemplo:
+
+{% code title="ttps.txt" %}
+```
+T1033
+T1087.002
+T1497.001-2
+```
+{% endcode %}
+
+{% embed url="https://github.com/Fatake/AutoAtomic" %}
