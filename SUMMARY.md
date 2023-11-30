@@ -39,6 +39,7 @@
     * [Enumeración](method/post-exploit/enumeracion/linux-enum.md)
     * [Privilege Escalation](method/post-exploit/linux/privilege-escalation.md)
   * [Windows](method/post-exploit/windows/README.md)
+    * [Revershell](method/post-exploit/windows/revershell.md)
     * [Windows Enum](method/post-exploit/enumeracion/windows-enum.md)
     * [Privilege Escalation](method/post-exploit/windows/privilege-escalation.md)
 * [Fase 4 - Reporting](method/fase-4-reporting/README.md)
