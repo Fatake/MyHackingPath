@@ -101,7 +101,7 @@
   * [LDAP Injection](web-pentesting/vulnerabilidades-comunes/ldap-injection.md)
 * [Laboratorios](web-pentesting/laboratorios.md)
 
-## ☁ AWS Pentesting
+## ☁️ AWS Pentesting
 
 * [Introducción a Amazon Web Services AWS](aws-pentesting/introduccion-a-amazon-web-services-aws.md)
 * [Acceso Inicial](aws-pentesting/acceso-inicial.md)
@@ -201,7 +201,7 @@
   * [Kerberoasting](active-directory/ataques-en-ad/kerberoasting.md)
 * [AD Lab](active-directory/ad-lab.md)
 
-## 🌩 Azure Coud Pentesting <a href="#azure-pentest" id="azure-pentest"></a>
+## 🌩️ Azure Coud Pentesting <a href="#azure-pentest" id="azure-pentest"></a>
 
 * [Introducción a Azure y Office 365](azure-pentest/introduccion-a-azure-y-office-365.md)
 * [Introducción a Microsoft Indentity Services](azure-pentest/introduccion-a-microsoft-indentity-services.md)
