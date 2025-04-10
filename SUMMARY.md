@@ -246,3 +246,7 @@
 * [Comandos Utiles](extras/comandos-utiles.md)
 * [Fliper Zero](extras/fliper-zero.md)
 * [Páginas útiles](extras/paginas-utiles.md)
+
+***
+
+* [Kali Set Up](kali-set-up.md)
